@@ -15,12 +15,15 @@ module.exports = {
     extend: {
       colors: {},
       fontSize: {
-        "portrait-sm": "16px",
+        "portfolio-xsm": "14px",
+        "portfolio-sm": "16px",
+        "portfolio-md": "18px",
       },
       height: {
         "portfolio-h-nav": "10%",
         "portfolio-h-heror": "90%",
         "5/2": "40%",
+        "portfolio-px-40": "40px",
       },
       width: {
         "portfolio-px-270": "270px",
