@@ -28,7 +28,7 @@ function Nav(props) {
       </div>
 
       <button
-        className="red hidden md:block"
+        className="white hidden md:block"
         onClick={() => props.setContactSideBar(true)}
       >
         Let’s build
