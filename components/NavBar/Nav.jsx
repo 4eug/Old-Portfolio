@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoClose, IoMenu } from "react-icons/io5";
 
-const NavItem = (props) => (
-  <li>
-    <Link href={`#${props.href}`}>
-      <a className="nav-link hover:text-ijikod-red">{props.text}</a>
-    </Link>
-  </li>
-);
+// const NavItem = (props) => (
+//   <li>
+//     <Link href={`#${props.href}`}>
+//       <a className="nav-link hover:text-ijikod-red">{props.text}</a>
+//     </Link>
+//   </li>
+// );
 
 function Nav(props) {
   // const [isOpen, setIsOpen] = useState(false);
