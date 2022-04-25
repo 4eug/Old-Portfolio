@@ -12,8 +12,6 @@ import { IoClose, IoMenu } from "react-icons/io5";
 // );
 
 function Nav(props) {
-  // const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav>
       <div className="h-8 w-20 relative">
