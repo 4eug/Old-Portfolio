@@ -25,10 +25,7 @@ function Nav(props) {
         /> */}
       </div>
 
-      <button
-        className="white hidden md:block"
-        onClick={() => props.setContactSideBar(true)}
-      >
+      <button className="white hidden md:block" onClick={{}}>
         <span>Let’s build</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
