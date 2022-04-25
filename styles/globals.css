@@ -22,3 +22,15 @@
     @apply h-portfolio-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50 mx-auto;
   }
 }
+
+.app-cursor {
+  z-index: 1000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+}
