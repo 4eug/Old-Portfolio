@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Nav from "../components/NavBar/Nav";
+import { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { CustomCursor } from "../components/CustomCursor";
+import SideBar from "../components/NavBar/sideBar";
 
 export default function Home() {
+  const [sideBar, setSideBar] = useState(false);
   return (
     <>
       <CustomCursor />
@@ -15,8 +18,9 @@ export default function Home() {
       </Head>
 
       <section>
-        <Nav />
+        <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
+      <SideBar sideBar={sideBar} />
     </>
   );
 }
