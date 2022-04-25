@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { CustomCursor } from "../components/CustomCursor";
 import SideBar from "../components/NavBar/sideBar";
+import Hero from "../components/Hero/Hero";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -20,6 +21,7 @@ export default function Home() {
       <section>
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
+      <Hero />
       <SideBar sideBar={sideBar} />
     </>
   );
