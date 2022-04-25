@@ -21,7 +21,7 @@ module.exports = {
       },
       height: {
         "portfolio-h-nav": "10%",
-        "portfolio-h-heror": "90%",
+        "portfolio-h-hero": "90%",
         "5/2": "40%",
         "portfolio-px-40": "40px",
       },
