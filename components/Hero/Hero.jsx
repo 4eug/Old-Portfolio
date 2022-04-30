@@ -3,18 +3,18 @@ import React from "react";
 // import { Spline } from "@splinetool/react-spline";
 const Spline = require("@splinetool/react-spline");
 
-export default function Hero() {
+const Hero = () => {
   return (
     <div name="home" className="w-full h-screen  flex flex-col justify-between">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-xl text-purple-900 mt-10 md:mt-0 ">
-            --- Eugene Debrah
+            Eugene Debrah
           </p>
           <h1 className="py-3 text-5xl md:text-7xl font-bold ">
             Software Developer & Designer.
           </h1>
-          <p className="mt-2 text-lg">
+          <p className="mt-2 text-md">
             I create value through design and illustration to elevate your
             company to a new level.
           </p>
@@ -29,4 +29,6 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};
+
+export default Hero;
