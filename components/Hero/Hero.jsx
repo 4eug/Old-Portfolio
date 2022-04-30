@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 // import { Spline } from "@splinetool/react-spline";
-const Spline = require("@splinetool/react-spline");
+// const Spline = require("@splinetool/react-spline");
 
 const Hero = () => {
   return (
@@ -20,11 +20,11 @@ const Hero = () => {
           </p>
         </div>
         <div className="ml-0 pl-0 md:ml-10 md:pl-10">
-          <div>
+          {/* <div>
             <Spline scene="https://prod.spline.design/UHKfuoFV4Ujx-5qo/scene.spline" />
-          </div>
+          </div> */}
 
-          {/* <img className="w-full" src="/Images.png" alt="/" /> */}
+          <img className="w-full" src="/Images.png" alt="/" />
         </div>
       </div>
     </div>
