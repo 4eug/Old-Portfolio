@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import { CustomCursor } from "../components/CustomCursor";
 import SideBar from "../components/NavBar/sideBar";
 import Hero from "../components/Hero/Hero";
+import SoftwareProjects from "../components/Portfolio/Software";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
       <Hero />
+      <SoftwareProjects />
       <SideBar sideBar={sideBar} />
     </>
   );
