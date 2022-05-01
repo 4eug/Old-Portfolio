@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cards = (props) => {
+const DevCards = (props) => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
@@ -124,4 +124,4 @@ const Cards = (props) => {
   );
 };
 
-export default Cards;
+export default DevCards;
