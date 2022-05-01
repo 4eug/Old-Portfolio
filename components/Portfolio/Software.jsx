@@ -1,22 +1,6 @@
 import DevCard from "../utilities/Cards/devCard";
 
 const SoftwareProjects = () => {
-  const projectArray = [
-    {
-      title: "MakeWay App",
-      subtitle: "Software Development & Product Design",
-      description:
-        "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick jigs vex! Fox ",
-      id: 1,
-    },
-    {
-      title: "TTU Student Portal App",
-      subtitle: "Mobile Development",
-      description:
-        "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick jigs vex! Fox ",
-      id: 2,
-    },
-  ];
   return (
     <div>
       <div className="grid max-w-[1240px] m-auto">
