@@ -7,7 +7,7 @@ const DevCards = (props) => {
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
             <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
+              <img className="rounded-t-lg" src="/devbg.png" alt="" />
             </a>
           </div>
 
@@ -30,7 +30,7 @@ const DevCards = (props) => {
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
             <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
+              <img className="rounded-t-lg" src="/devbg.png" alt="" />
             </a>
           </div>
 
@@ -53,7 +53,7 @@ const DevCards = (props) => {
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
             <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
+              <img className="rounded-t-lg" src="/devbg.png" alt="" />
             </a>
           </div>
 
@@ -76,7 +76,7 @@ const DevCards = (props) => {
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
             <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
+              <img className="rounded-t-lg" src="/devbg.png" alt="" />
             </a>
           </div>
 
@@ -99,7 +99,7 @@ const DevCards = (props) => {
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
             <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
+              <img className="rounded-t-lg" src="/devbg.png" alt="" />
             </a>
           </div>
 
