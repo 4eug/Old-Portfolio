@@ -1,5 +1,3 @@
-import DesignCard from "../utilities/Cards/designCard";
-import Cards from "../utilities/Cards/devCard";
 import DevCard from "../utilities/Cards/devCard";
 
 const SoftwareProjects = () => {
@@ -28,7 +26,7 @@ const SoftwareProjects = () => {
             What I’m building / Have built
           </h1>
           <div className="flex flex-row gap-10">
-            <Cards />
+            <DevCard />
           </div>
         </div>
       </div>
