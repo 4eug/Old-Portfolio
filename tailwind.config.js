@@ -24,6 +24,7 @@ module.exports = {
         "portfolio-h-hero": "90%",
         "5/2": "40%",
         "portfolio-px-40": "40px",
+        "portfolio-px-450": "450px",
       },
       width: {
         "portfolio-px-270": "270px",
