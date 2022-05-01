@@ -8,6 +8,7 @@ import SideBar from "../components/NavBar/sideBar";
 import Hero from "../components/Hero/Hero";
 import SoftwareProjects from "../components/Portfolio/Software";
 import DesignProjects from "../components/Portfolio/Design";
+import About from "../components/About/About";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -26,6 +27,9 @@ export default function Home() {
       <Hero />
       <SoftwareProjects />
       <DesignProjects />
+      <section className="px-8 lg:px-64 pb-8">
+        <About />
+      </section>
       <SideBar sideBar={sideBar} />
     </>
   );
