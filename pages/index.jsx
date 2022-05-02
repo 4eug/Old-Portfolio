@@ -27,9 +27,7 @@ export default function Home() {
       <Hero />
       <SoftwareProjects />
       <DesignProjects />
-      <section className="px-8 lg:px-64 pb-8">
-        <About />
-      </section>
+
       <SideBar sideBar={sideBar} />
     </>
   );
