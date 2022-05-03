@@ -3,7 +3,7 @@ import React from "react";
 
 const DesignCards = (props) => {
   return (
-    <div className="w-full px-4 bg-white">
+    <div className="w-full px-4 py-8 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-10">
         <div className="max-w-lg bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="">
