@@ -2,7 +2,7 @@ import React from "react";
 
 const DevCards = (props) => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
+    <div className="w-full px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div className="max-w-sm bg-white rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
           <div className="pt-4 pl-4 pr-4">
