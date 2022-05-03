@@ -5,7 +5,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" flex flex-col justify-between">
+    <div className="mt-32 p-4 md:p-10 flex flex-col justify-between">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-xl text-purple-900 mt-10 md:mt-0 ">About Me</p>
