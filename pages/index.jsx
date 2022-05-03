@@ -27,7 +27,7 @@ export default function Home() {
       <Hero />
       <SoftwareProjects />
       <DesignProjects />
-
+      <About />
       <SideBar sideBar={sideBar} />
     </>
   );
