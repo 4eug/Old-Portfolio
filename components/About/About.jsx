@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-// import { Spline } from "@splinetool/react-spline";
-// const Spline = require("@splinetool/react-spline");
 
 const Hero = () => {
   return (
