@@ -30,11 +30,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="ml-0 pl-0 md:ml-10 md:pl-10">
-          {/* <div>
-            <Spline scene="https://prod.spline.design/UHKfuoFV4Ujx-5qo/scene.spline" />
-          </div> */}
-
-          <img className="w-full" src="/Images.png" alt="/" />
+          <img className="w-full" src="/About.png" alt="/" />
         </div>
       </div>
     </div>
