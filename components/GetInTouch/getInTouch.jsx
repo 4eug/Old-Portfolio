@@ -1,4 +1,10 @@
-import { AiFillGithub } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiOutlineDribbble,
+  AiOutlineBehance,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 function GetInTouch() {
   return (
@@ -11,11 +17,40 @@ function GetInTouch() {
             The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
             quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
           </p>
-          <p className="mt-4 text-lg">debraheug@gmail.com</p>
-          <div className="flex flex-col">
-            <li>
-              <AiFillGithub />
-            </li>
+          <p className="mt-6 text-lg">debraheug@gmail.com</p>
+          <div className="mt-6">
+            <ol className="inline-flex items-center space-x-1 md:space-x-3">
+              <li className="inline-flex items-center">
+                <a href="#" className="inline-flex items-center text-sm ">
+                  Github
+                  <AiFillGithub size={25} />
+                </a>
+              </li>
+              <li className="inline-flex items-center">
+                <a href="#" className="inline-flex items-center text-sm ">
+                  Dribbble
+                  <AiOutlineDribbble size={25} />
+                </a>
+              </li>
+              <li className="inline-flex items-center">
+                <a href="#" className="inline-flex items-center text-sm ">
+                  Behance
+                  <AiOutlineBehance size={30} />
+                </a>
+              </li>
+              <li className="inline-flex items-center">
+                <a href="#" className="inline-flex items-center text-sm ">
+                  Instagram
+                  <AiOutlineInstagram size={25} />
+                </a>
+              </li>
+              <li className="inline-flex items-center">
+                <a href="#" className="inline-flex items-center text-sm ">
+                  Twitter
+                  <AiOutlineTwitter size={30} />
+                </a>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
