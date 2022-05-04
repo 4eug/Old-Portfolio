@@ -1,7 +1,12 @@
+import { motion } from "framer-motion";
+
 function LinkButton() {
   return (
     <a href="mailto:debraheug@gmail.com">
-      <button className="white hidden md:block">
+      <motion.button
+        whileHover={{ scale: 1.05 }}
+        className="white hidden md:block"
+      >
         <span>Let’s build</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +40,7 @@ function LinkButton() {
             />
           </g>
         </svg>
-      </button>
+      </motion.button>
     </a>
   );
 }
