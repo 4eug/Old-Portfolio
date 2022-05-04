@@ -1,3 +1,5 @@
+import { AiFillGithub } from "react-icons/ai";
+
 function GetInTouch() {
   return (
     <div className="mt-20 p-4 md:pl-10 md:pr-60 flex flex-col justify-between">
@@ -10,6 +12,11 @@ function GetInTouch() {
             quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
           </p>
           <p className="mt-4 text-lg">debraheug@gmail.com</p>
+          <div className="flex flex-col">
+            <li>
+              <AiFillGithub />
+            </li>
+          </div>
         </div>
       </div>
     </div>
