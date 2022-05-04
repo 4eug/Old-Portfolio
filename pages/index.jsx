@@ -10,6 +10,7 @@ import SoftwareProjects from "../components/Portfolio/Software";
 import DesignProjects from "../components/Portfolio/Design";
 import About from "../components/About/About";
 import GetInTouch from "../components/GetInTouch/getInTouch";
+import Footer from "../components/Footer/footer";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -30,6 +31,7 @@ export default function Home() {
       <DesignProjects />
       <About />
       <GetInTouch />
+      <Footer />
       <SideBar sideBar={sideBar} />
     </>
   );
