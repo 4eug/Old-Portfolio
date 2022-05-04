@@ -17,7 +17,14 @@ function GetInTouch() {
             The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
             quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
           </p>
-          <p className="mt-6 text-lg">debraheug@gmail.com</p>
+          <a
+            href="mailto:debraheug@gmail.com"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="mt-6 text-lg underline"
+          >
+            debraheug@gmail.com
+          </a>
           <div className="mt-6">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
               <li className="inline-flex items-center">
