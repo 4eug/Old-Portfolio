@@ -38,6 +38,8 @@ function GetInTouch() {
                   <AiOutlineBehance size={30} />
                 </a>
               </li>
+            </ol>
+            <div className="space-x-3">
               <li className="inline-flex items-center">
                 <a href="#" className="inline-flex items-center text-sm ">
                   Instagram
@@ -50,7 +52,7 @@ function GetInTouch() {
                   <AiOutlineTwitter size={30} />
                 </a>
               </li>
-            </ol>
+            </div>
           </div>
         </div>
       </div>
