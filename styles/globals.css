@@ -24,6 +24,10 @@
   }
 }
 
+body {
+  cursor: none;
+}
+
 .app-cursor {
   z-index: 1000;
   border-radius: 50%;
