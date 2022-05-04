@@ -4,10 +4,7 @@ function Footer() {
       <hr className="my-6 border-gray-200 mx-auto sm:mx-auto dark:border-gray-300 lg:my-8" />
       <span className="block text-sm text-black text-center sm:text-center ">
         Copyright &copy;
-        <a href="https://flowbite.com" className="hover:underline">
-          4eug
-        </a>{" "}
-        {new Date().getFullYear()}
+        <a href="#">4eug</a> {new Date().getFullYear()}
       </span>
     </footer>
   );
