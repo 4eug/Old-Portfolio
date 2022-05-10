@@ -64,7 +64,7 @@ function GetInTouch() {
             <div className="space-x-3">
               <li className="inline-flex items-center">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/_.4eug/"
                   target={"_blank"}
                   className="inline-flex items-center text-sm "
                   rel="noreferrer"
