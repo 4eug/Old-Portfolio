@@ -8,7 +8,7 @@ import {
 
 function GetInTouch() {
   return (
-    <div className="mt-20 p-4 md:pl-10 md:pr-60 flex flex-col justify-between">
+    <div className="mt-20 p-4 md:pl-10 md:pr-96 flex flex-col justify-between">
       <div className="m-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-xl text-purple-900 mt-10 md:mt-0 ">Say Hello</p>
