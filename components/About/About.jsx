@@ -11,22 +11,12 @@ const Hero = () => {
             <p className="text-xl text-purple-900 mt-10 md:mt-0 ">About Me</p>
             <h1 className="py-3 text-2xl md:text-3xl font-bold ">MySelf</h1>
             <p className="mt-2 text-md">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
-              quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox
-              nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.
-              Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex
-              bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop
-              blew my junk TV quiz. How quickly daft jumping zebras vex. Two
-              driven jocks help fax my big quiz. Quick, Baz, get my woven flax
-              jodhpurs! Now fax quiz Jack! my brave ghost pled. Five quacking
-              zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq.
-              Cozy sphinx waves quart jug of bad milk. A very bad quack might
-              jinx zippy fowls. Few quips galvanized the mock jury box. Quick
-              brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and
-              my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin
-              Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps
-              quickly in fog. Watch , Alex fun TV quiz game.
+              I am a self-motivated and a result-oriented Software Developer &
+              UX Designer who is passionate about building and designing
+              beautiful and value-based applications or digital products for
+              businesses. I’m able to take ideas from concept to wireframe to
+              prototype to production. Eager to use my skills to deliver the
+              best solutions to clients and businesses.
             </p>
           </div>
           <div className="ml-0 pl-0 md:ml-10 md:pl-10">
