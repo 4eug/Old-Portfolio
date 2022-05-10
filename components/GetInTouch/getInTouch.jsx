@@ -50,7 +50,12 @@ function GetInTouch() {
                 </a>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="inline-flex items-center text-sm ">
+                <a
+                  href="https://www.behance.net/debraheug"
+                  target={"_blank"}
+                  className="inline-flex items-center text-sm "
+                  rel="noreferrer"
+                >
                   Behance
                   <AiOutlineBehance size={30} />
                 </a>
