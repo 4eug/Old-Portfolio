@@ -30,7 +30,7 @@ const Hero = () => {
             Eugene Debrah
           </p>
           <h1 className="py-3 text-5xl md:text-7xl font-bold ">
-            Software Developer & Designer.
+            Software Developer & Designer
           </h1>
           <p className="mt-2 text-md">
             I create value through design and illustration to elevate your
