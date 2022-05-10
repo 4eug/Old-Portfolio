@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Nav from "../components/NavBar/Nav";
 import { useState } from "react";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { CustomCursor } from "../components/CustomCursor";
 import SideBar from "../components/NavBar/sideBar";
 import Hero from "../components/Hero/Hero";
