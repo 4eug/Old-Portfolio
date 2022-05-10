@@ -30,7 +30,9 @@ function GetInTouch() {
               <li className="inline-flex items-center">
                 <a
                   href="https://github.com/4eug"
+                  target={"_blank"}
                   className="inline-flex items-center text-sm "
+                  rel="noreferrer"
                 >
                   Github
                   <AiFillGithub size={25} />
