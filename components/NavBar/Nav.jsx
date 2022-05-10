@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 import { IoClose, IoMenu } from "react-icons/io5";
 import LinkButton from "../utilities/Buttons/button";
+import Mode from "../utilities/Buttons/mode";
 
 // const NavItem = (props) => (
 //   <li>
@@ -12,10 +14,12 @@ import LinkButton from "../utilities/Buttons/button";
 //   </li>
 // );
 
+// eslint-disable-next-line react-hooks/rules-of-hooks
+
 function Nav(props) {
   return (
     <nav>
-      <div className="h-8 w-20 relative">
+      <div className="h-8 w-20 relative text-xl">
         4eug
         {/* <Image
           layout="fill"
@@ -25,7 +29,7 @@ function Nav(props) {
           alt="ijikod logo"
         /> */}
       </div>
-
+      <Mode />
       <LinkButton />
 
       <div className="block md:hidden ">
