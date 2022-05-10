@@ -20,7 +20,7 @@
   }
 
   nav {
-    @apply h-portfolio-h-nav  bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50 mx-auto;
+    @apply h-portfolio-h-nav flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 mt-4 inset-x-0 top-0 z-50 mx-auto;
   }
 }
 
