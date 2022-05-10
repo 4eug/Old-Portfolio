@@ -22,10 +22,10 @@ function LinkButton() {
               transform="translate(3.954 5.561)"
               fill="none"
               stroke="#030303"
-              strokelinecap="round"
-              strokelinejoin="round"
-              strokemiterlimit="10"
-              strokewidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
+              strokeWidth="1.5"
             />
             <path
               id="Rectangle_511"
@@ -33,10 +33,10 @@ function LinkButton() {
               transform="translate(0 0)"
               fill="none"
               stroke="#030303"
-              strokelinecap="round"
-              strokelinejoin="round"
-              strokemiterlimit="10"
-              strokewidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
+              strokeWidth="1.5"
             />
           </g>
         </svg>
