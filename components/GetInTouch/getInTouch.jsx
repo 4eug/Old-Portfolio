@@ -39,7 +39,12 @@ function GetInTouch() {
                 </a>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="inline-flex items-center text-sm ">
+                <a
+                  href="https://dribbble.com/4eug"
+                  target={"_blank"}
+                  className="inline-flex items-center text-sm "
+                  rel="noreferrer"
+                >
                   Dribbble
                   <AiOutlineDribbble size={25} />
                 </a>
