@@ -63,13 +63,23 @@ function GetInTouch() {
             </ol>
             <div className="space-x-3">
               <li className="inline-flex items-center">
-                <a href="#" className="inline-flex items-center text-sm ">
+                <a
+                  href="#"
+                  target={"_blank"}
+                  className="inline-flex items-center text-sm "
+                  rel="noreferrer"
+                >
                   Instagram
                   <AiOutlineInstagram size={25} />
                 </a>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="inline-flex items-center text-sm ">
+                <a
+                  href="https://twitter.com/4eug_"
+                  target={"_blank"}
+                  className="inline-flex items-center text-sm "
+                  rel="noreferrer"
+                >
                   Twitter
                   <AiOutlineTwitter size={30} />
                 </a>
