@@ -16,7 +16,7 @@ const SideBar = (props) => {
               y: "-100%",
             }}
             transition={{ type: "spring", bounce: 0, duration: 0.5 }}
-            className="fixed bg-white text-black shadow-lg top-0 right-0 w-full p-5 text-right flex flex-col items-end gap-10 z-30"
+            className="fixed  text-black shadow-lg top-0 right-0 w-full p-5 text-right flex flex-col items-end gap-10 z-30"
           >
             <div className="m-auto">
               <ul className="flex flex-col items-center gap-10">
@@ -37,10 +37,10 @@ const SideBar = (props) => {
                           transform="translate(3.954 5.561)"
                           fill="none"
                           stroke="#030303"
-                          strokelinecap="round"
-                          strokelinejoin="round"
-                          strokemiterlimit="10"
-                          strokewidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeMiterlimit="null"
+                          strokeWidth="1.5"
                         />
                         <path
                           id="Rectangle_511"
@@ -48,10 +48,10 @@ const SideBar = (props) => {
                           transform="translate(0 0)"
                           fill="none"
                           stroke="#030303"
-                          strokelinecap="round"
-                          strokelinejoin="round"
-                          strokemiterlimit="10"
-                          strokewidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeMiterlimit="null"
+                          strokeWidth="1.5"
                         />
                       </g>
                     </svg>
