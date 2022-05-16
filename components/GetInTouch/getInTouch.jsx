@@ -26,7 +26,7 @@ function GetInTouch() {
             debraheug@gmail.com
           </a>
           <div className="mt-6">
-            <ol className="inline-flex items-center space-x-1 md:space-x-3">
+            <ol className="flex-wrap items-center space-x-1 md:space-x-3">
               <li className="inline-flex items-center">
                 <a
                   href="https://github.com/4eug"
@@ -60,8 +60,6 @@ function GetInTouch() {
                   <AiOutlineBehance size={30} />
                 </a>
               </li>
-            </ol>
-            <div className="space-x-3">
               <li className="inline-flex items-center">
                 <a
                   href="https://www.instagram.com/_.4eug/"
@@ -84,6 +82,10 @@ function GetInTouch() {
                   <AiOutlineTwitter size={30} />
                 </a>
               </li>
+            </ol>
+            <div className="space-x-3">
+              
+             
             </div>
           </div>
         </div>
