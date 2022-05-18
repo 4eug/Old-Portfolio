@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
             <p className="text-xl text-purple-900 mt-10 md:mt-0 ">About Me</p>
             <h1 className="py-3 text-2xl md:text-3xl font-bold ">MySelf</h1>
-            <p className="mt-2 text-md">
+            <p className="mt-2 text-lg">
               I am a self-motivated and a result-oriented Software Developer &
               UX Designer who is passionate about building and designing
               beautiful and value-based applications or digital products for
