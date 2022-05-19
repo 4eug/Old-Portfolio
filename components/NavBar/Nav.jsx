@@ -34,7 +34,7 @@ function Nav(props) {
 
       <div className="block md:hidden ">
         <div
-          className="inline-flex items-center justify-center p-2 text-black"
+          className="inline-flex items-center justify-center p-2"
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
