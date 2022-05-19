@@ -1,10 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useState} from "react";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 // import { Spline } from "@splinetool/react-spline";
 // const Spline = require("@splinetool/react-spline");
 
 const Hero = () => {
+ const [state] = useState({
+   title: "Eugene Debrah",
+    subtitle: "",
+
+ });
+
   return (
     <div name="home" className="w-full h-screen  flex flex-col justify-between">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
@@ -27,14 +34,32 @@ const Hero = () => {
           className="flex flex-col justify-center md:items-start w-full px-2 py-8"
         >
           <p className="text-xl text-purple-900 mt-10 md:mt-0 ">
-            Eugene Debrah
+            {state.title}
           </p>
           <h1 className="py-3 text-5xl md:text-7xl font-bold ">
-            Software Developer & Designer
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 60,
+              strings: ["Software Developer & Designer",
+              ]
+            }}
+            />
+            
           </h1>
           <p className="mt-2 text-md">
-            I create value through design and illustration to elevate your
-            company to a new level.
+            <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 40,
+              strings: [
+                "I create value through design and illustration to elevate you company to a new level.",
+              ]
+            }}
+            />
+            
           </p>
         </motion.div>
         <motion.div
