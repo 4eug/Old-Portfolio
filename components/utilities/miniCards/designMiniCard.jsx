@@ -17,9 +17,7 @@ const DesignMiniCard = (props) => {
             </a>
             <p className="font-bold  ">{props.subtitle}</p>
             <p className="font-light  ">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick
-              jigs vex! Fox
+              {props.description}
             </p>
           </div>
         </div>
