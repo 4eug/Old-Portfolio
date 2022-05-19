@@ -1,88 +1,24 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import DesignMiniCard from "../miniCards/designMiniCard";
 
 const DesignCards = (props) => {
+  const designArray = [
+    { title: "Design", subtitle: "Mobile Development & Product Design", id: 1 },
+    { title: "Music", subtitle: "Music & Audio", id: 2 },
+    { title: "Software", subtitle: "Software Development", id: 3 },
+    { title: "Dance", subtitle: "Dance & Movement", id: 4 },
+  ]
   return (
     <div className="w-full px-4 py-8 ">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-10">
-        <div className="max-w-lg  rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
-          <div className="">
-            <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
-            </a>
-          </div>
-
-          <div className="p-5">
-            <a href="#">
-              <h5 className="text-lg font-bold tracking-tight ">MakeWay App</h5>
-            </a>
-            <p className="font-normal  ">Mobile Development & Product Design</p>
-            <p className="font-light  ">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick
-              jigs vex! Fox
-            </p>
-          </div>
-        </div>
-        <div className="max-w-lg  rounded-3xl border  shadow-md">
-          <div className="">
-            <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
-            </a>
-          </div>
-
-          <div className="p-5">
-            <a href="#">
-              <h5 className="text-lg font-bold tracking-tight ">MakeWay App</h5>
-            </a>
-            <p className="font-normal  ">Mobile Development & Product Design</p>
-            <p className="font-light  ">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick
-              jigs vex! Fox
-            </p>
-          </div>
-        </div>
-        <div className="max-w-lg  rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
-          <div className="">
-            <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
-            </a>
-          </div>
-
-          <div className="p-5">
-            <a href="#">
-              <h5 className="text-lg font-bold tracking-tight ">MakeWay App</h5>
-            </a>
-            <p className="font-normal ">Mobile Development & Product Design</p>
-            <p className="font-light  ">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick
-              jigs vex! Fox
-            </p>
-          </div>
-        </div>
-        <div className="max-w-lg  rounded-3xl border border-gray-200 shadow-md dark:border-gray-200">
-          <div className="">
-            <a href="#">
-              <img className="rounded-t-lg" src="/Background.png" alt="" />
-            </a>
-          </div>
-
-          <div className="p-5">
-            <a href="#">
-              <h5 className="text-lg font-bold tracking-tight  ">
-                MakeWay App
-              </h5>
-            </a>
-            <p className="font-normal  ">Mobile Development & Product Design</p>
-            <p className="font-light ">
-              The quick, brown fox jumps over a lazy dog. DJs flock by when MTV
-              ax quiz prog. Junk MTV quiz g nymphs. Waltz, bad nymph, for quick
-              jigs vex! Fox
-            </p>
-          </div>
-        </div>
+        {designArray.map((item) => (
+          <DesignMiniCard
+            title={item.title}
+            subtitle={item.subtitle}
+            key={item.id}
+          />
+          ))}
       </div>
     </div>
   );
