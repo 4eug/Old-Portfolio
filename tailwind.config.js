@@ -14,7 +14,10 @@ module.exports = {
       ...screens,
     },
     extend: {
-      colors: {},
+      colors: {
+        'main-orange': '#FF5833',
+        'mid-white': '#EDCDC6',
+      },
       fontSize: {
         "portfolio-xsm": "14px",
         "portfolio-sm": "16px",
