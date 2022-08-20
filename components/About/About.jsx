@@ -9,7 +9,7 @@ const About = () => {
         <div className="flex justify-center items-center">
         <img className="object-center" src="/Me.png" alt="/" />
         </div>
-          <h6 className="mt-8 text-xl">Hi, I’m Eugene</h6>
+          <h6 className="mt-8 text-xl">Hi, I’m Eugene ✋🏼</h6>
           <h3 className="text-4xl md:text-6xl text-center mt-8 leading-16 tracking-tight font-normal">
           Building digital products,
           </h3>

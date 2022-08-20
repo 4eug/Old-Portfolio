@@ -5,6 +5,7 @@ import { CustomCursor } from "../components/CustomCursor";
 import SideBar from "../components/NavBar/sideBar";
 import Meta from "../components/utilities/meta/meta";
 import About from "../components/About/About";
+import Footer from "../components/Footer/footer";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -21,6 +22,7 @@ export default function Home() {
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
       <About/>
+      <Footer/>
       <SideBar sideBar={sideBar} />
     </>
   );
