@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function AboutButton() {
   return (
-    <a href="mailto:debraheug@gmail.com">
+    <a href="/about">
       <motion.button
         whileHover={{ scale: 1.05 }}
         className="white hidden md:block"
