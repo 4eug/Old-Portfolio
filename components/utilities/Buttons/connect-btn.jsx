@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function ConnectButton() {
   return (
-    <a href="/about">
+    <a href="mailto:debraheug@gmail.com">
       <motion.button
         whileHover={{ scale: 1.05 }}
         className="black hidden md:block"
