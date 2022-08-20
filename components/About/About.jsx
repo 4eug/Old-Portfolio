@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import ConnectButton from "../utilities/Buttons/connect-btn";
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
               </p>
           </div>
           
-          <button className="black text-white mt-16 mb-10">
-          CONNECT WITHME
-          </button>
+          <div className="mt-16 mb-10 flex justify-center items-center">
+          <ConnectButton/>
+          </div>
 
         </div>
       </section>
