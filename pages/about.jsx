@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CustomCursor } from "../components/CustomCursor";
 import SideBar from "../components/NavBar/sideBar";
 import Meta from "../components/utilities/meta/meta";
+import About from "../components/About/About";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
       <section>
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
+      <About/>
       <SideBar sideBar={sideBar} />
     </>
   );
