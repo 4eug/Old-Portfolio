@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     <div name="home" className="w-full h-screen  flex flex-col justify-between">
-      <div className="grid md:grid-cols-2 max-w-[1240px] ml-auto mr-auto mt-2 md:mt-10">
+      <div className="grid md:grid-cols-1 max-w-[1240px] ml-2 md:ml-32 mt-16 md:mt-44">
         <div
           initial="initial"
           animate="animate"
@@ -33,35 +33,16 @@ const Hero = () => {
           }}
           className="flex flex-col justify-center md:items-start w-full px-2 py-8"
         >
-          <p className="pl-4 md:pl-10 text-xl mt-16 md:mt-0 ">
-            {state.title}
-          </p>
-          <h1 className="pl-3 md:pl-8 text-5xl md:text-7xl font-bold ">
-          Software Developer & Designer.
-            <h1/>
-            
+          <h1 className="text-4xl md:text-5xl font-bold ">
+          the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span>
+          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mt-2">
+          is the mixture of collaboration
+          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mt-2 ">
+          and the ❤️ of learning. 
           </h1>
         </div>
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: {
-              scale: 1.3,
-              opacity: 0,
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              transition: {
-                delay: 0.7,
-              },
-            },
-          }}
-          className="ml-0 pl-0 md:ml-10 md:pl-10"
-        >
-          <img className="w-full" src="/Image 6.png" alt="/" />
-        </motion.div>
       </div>
     </div>
   );
