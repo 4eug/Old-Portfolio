@@ -7,15 +7,15 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
  const [state] = useState({
-   title: "Eugene Debrah",
+   title: "Hi, I’m Eugene",
     subtitle: "",
 
  });
 
   return (
     <div name="home" className="w-full h-screen  flex flex-col justify-between">
-      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-        <motion.div
+      <div className="grid md:grid-cols-2 max-w-[1240px] ml-auto mr-auto mt-2 md:mt-10">
+        <div
           initial="initial"
           animate="animate"
           variants={{
@@ -33,35 +33,15 @@ const Hero = () => {
           }}
           className="flex flex-col justify-center md:items-start w-full px-2 py-8"
         >
-          <p className="text-xl text-purple-900 mt-10 md:mt-0 ">
+          <p className="pl-4 md:pl-10 text-xl mt-8 md:mt-0 ">
             {state.title}
           </p>
-          <h1 className="py-3 text-5xl md:text-7xl font-bold ">
-          <Typewriter
-            options={{
-              autoStart: true,
-              loop: true,
-              delay: 60,
-              strings: ["Software Developer & Designer",
-              ]
-            }}
-            />
+          <h1 className="pl-3 md:pl-8 text-5xl md:text-7xl font-bold ">
+          Software Developer & Designer.
+            <h1/>
             
           </h1>
-          <p className="mt-2 text-md">
-            <Typewriter
-            options={{
-              autoStart: true,
-              loop: true,
-              delay: 40,
-              strings: [
-                "I create value through design and illustration to elevate you company to a new level.",
-              ]
-            }}
-            />
-            
-          </p>
-        </motion.div>
+        </div>
         <motion.div
           initial="hidden"
           animate="visible"
@@ -80,11 +60,7 @@ const Hero = () => {
           }}
           className="ml-0 pl-0 md:ml-10 md:pl-10"
         >
-          {/* <div>
-            <Spline scene="https://prod.spline.design/UHKfuoFV4Ujx-5qo/scene.spline" />
-          </div> */}
-
-          <img className="w-full" src="/Images.png" alt="/" />
+          <img className="w-full" src="/Image 6.png" alt="/" />
         </motion.div>
       </div>
     </div>
