@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { IoClose, IoMenu } from "react-icons/io5";
 import LinkButton from "../utilities/Buttons/button";
 import Mode from "../utilities/Buttons/mode";
+import AboutButton from "../utilities/Buttons/button";
 
 // const NavItem = (props) => (
 //   <li>
@@ -20,17 +21,16 @@ function Nav(props) {
   return (
     <nav>
       <div className="h-8 w-20 relative text-xl">
-        4eug
-        {/* <Image
+        <Image
           layout="fill"
           objectFit="contain"
           priority
-          src={"/Logo.png"}
+          src={"/Logo.svg"}
           alt="ijikod logo"
-        /> */}
+        />
       </div>
       <Mode />
-      <LinkButton />
+      <AboutButton/>
 
       <div className="block md:hidden ">
         <div
