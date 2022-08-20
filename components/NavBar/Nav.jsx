@@ -21,6 +21,8 @@ function Nav(props) {
   return (
     <nav>
       <div className="h-8 w-20 relative text-xl">
+        <Link href="/">
+        <a>
         <Image
           layout="fill"
           objectFit="contain"
@@ -28,6 +30,8 @@ function Nav(props) {
           src={"/Logo.svg"}
           alt="ijikod logo"
         />
+        </a>
+        </Link>
       </div>
       <div className="pl-8 md:pl-12">
       <Mode />
