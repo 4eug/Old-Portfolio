@@ -7,16 +7,6 @@ import LinkButton from "../utilities/Buttons/button";
 import Mode from "../utilities/Buttons/mode";
 import AboutButton from "../utilities/Buttons/button";
 
-// const NavItem = (props) => (
-//   <li>
-//     <Link href={`#${props.href}`}>
-//       <a className="nav-link hover:text-ijikod-red">{props.text}</a>
-//     </Link>
-//   </li>
-// );
-
-// eslint-disable-next-line react-hooks/rules-of-hooks
-
 function Nav(props) {
   return (
     <nav>
