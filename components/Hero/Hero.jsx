@@ -33,7 +33,7 @@ const Hero = () => {
           }}
           className="flex flex-col justify-center md:items-start w-full px-2 py-8"
         >
-          <p className="pl-4 md:pl-10 text-xl mt-8 md:mt-0 ">
+          <p className="pl-4 md:pl-10 text-xl mt-16 md:mt-0 ">
             {state.title}
           </p>
           <h1 className="pl-3 md:pl-8 text-5xl md:text-7xl font-bold ">
