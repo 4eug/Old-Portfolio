@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="pt-16 md:pt-12">
+    <section className="pt-16 md:pt-28">
         <div className="text-center"> 
         <div className="flex justify-center items-center">
         <img className="object-center" src="/Me.png" alt="/" />
