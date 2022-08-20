@@ -29,7 +29,9 @@ function Nav(props) {
           alt="ijikod logo"
         />
       </div>
+      <div className="pl-8 md:pl-12">
       <Mode />
+      </div>
       <AboutButton/>
 
       <div className="block md:hidden ">
