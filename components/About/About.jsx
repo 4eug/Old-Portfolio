@@ -1,31 +1,30 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Fade } from "react-awesome-reveal";
 
-const Hero = () => {
+const About = () => {
   return (
-    <Fade cascade>
-      <div className="mt-32 p-4 md:p-10 flex flex-col justify-between">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-          <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
-            <p className="text-xl text-purple-900 mt-10 md:mt-0 ">About Me</p>
-            <h1 className="py-3 text-2xl md:text-3xl font-bold ">MySelf</h1>
-            <p className="mt-2 text-lg">
-              I am a self-motivated and a result-oriented Software Developer &
-              UX Designer who is passionate about building and designing
-              beautiful and value-based applications or digital products for
-              businesses. I’m able to take ideas from concept to wireframe to
-              prototype to production. Eager to use my skills to deliver the
-              best solutions to clients and businesses.
-            </p>
-          </div>
-          <div className="ml-0 pl-0 md:ml-10 md:pl-10">
-            <img className="w-full" src="/About.png" alt="/" />
-          </div>
+    <section className="pt-16 md:pt-12">
+        <div className="text-center"> 
+        <div className="flex justify-center items-center">
+        <img className="object-center" src="/Me.png" alt="/" />
         </div>
-      </div>
-    </Fade>
+          <h6 className="mt-8 text-xl">Hi, I’m Eugene</h6>
+          <h3 className="text-4xl md:text-6xl text-center mt-8 leading-16 tracking-tight font-normal">
+          Building digital products,
+          </h3>
+          <h3 className="text-4xl md:text-6xl text-center mt-2 leading-16 tracking-tight font-normal">
+          creating awesome brand 
+          </h3>
+          <h3 className="text-4xl md:text-6xl text-center mt-2 leading-16 tracking-tight font-normal">
+          experiences.
+          </h3>
+          <button className="black text-white mt-20 mb-10">
+          CONNECT WITHME
+          </button>
+
+        </div>
+      </section>
   );
 };
 
-export default Hero;
+export default About;
