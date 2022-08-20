@@ -19,8 +19,6 @@ const Meta = (props) => {
             <meta name="twitter:creator" content="@4eug_" />
             <meta property="twitter:description" content="Software Developer & Product Designer." />
             <meta name="description" content="Software Developer & Product Designer." />
-            <link rel='shortcut icon' href='/v.png' />
-
         </Head>
     );
 }

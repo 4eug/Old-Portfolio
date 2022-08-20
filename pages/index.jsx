@@ -9,14 +9,15 @@ import DesignProjects from "../components/Portfolio/Design";
 import About from "../components/About/About";
 import GetInTouch from "../components/GetInTouch/getInTouch";
 import Footer from "../components/Footer/footer";
+import Meta from "../components/utilities/meta/meta";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
   return (
     <>
       <CustomCursor />
+      <Meta title="4eug Portfolio" />
       <Head>
-        <title>4eug Portfolio</title>
         <meta name="description" content="Developed by Me" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
