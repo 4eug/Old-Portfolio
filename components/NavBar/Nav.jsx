@@ -18,7 +18,7 @@ function Nav(props) {
           objectFit="contain"
           priority
           src={"/Logo.svg"}
-          alt="ijikod logo"
+          alt="logo"
         />
         </a>
         </Link>
