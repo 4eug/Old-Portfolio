@@ -9,6 +9,7 @@ import DesignProjects from "../components/Portfolio/Design";
 import GetInTouch from "../components/GetInTouch/getInTouch";
 import Footer from "../components/Footer/footer";
 import Meta from "../components/utilities/meta/meta";
+import { Content } from "../components/Portfolio/Content";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -38,6 +39,9 @@ export default function Home() {
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
       <Hero />
+      <section>
+        <Content/>
+      </section>
       <Footer />
       <SideBar sideBar={sideBar} />
     </>
