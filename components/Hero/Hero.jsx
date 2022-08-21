@@ -13,7 +13,7 @@ const Hero = () => {
  });
 
   return (
-    <div name="home" className="w-full h-screen  flex flex-col justify-between">
+    <div name="home" className="w-full h-full flex flex-col justify-between">
       <div className="grid md:grid-cols-1 max-w-[1240px] ml-2 md:ml-32 mt-16 md:mt-44">
         <div
           initial="initial"
