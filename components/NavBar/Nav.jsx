@@ -10,7 +10,7 @@ import AboutButton from "../utilities/Buttons/button";
 function Nav(props) {
   return (
     <nav>
-      <div className="h-8 w-20 relative text-xl">
+      <div className="h-8 w-20 relative text-xl ">
         <Link href="/">
         <a>
         <Image

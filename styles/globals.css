@@ -28,7 +28,7 @@
   }
 
   nav {
-    @apply h-portfolio-h-nav flex justify-between items-center px-5 xxsm:px-2 md:px-20 lg:px-4 xl:px-28 mt-2 md:mt-8 inset-x-0 top-0 z-50 mx-auto;
+    @apply h-portfolio-h-nav flex justify-between items-center px-5 xxsm:px-2 md:px-20 lg:px-4 xl:px-28 2xl:px-52 mt-2 md:mt-8 inset-x-0 top-0 z-50 mx-auto;
   }
 }
 
