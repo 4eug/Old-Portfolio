@@ -78,7 +78,7 @@ export const Content = () => {
     ]
 
     return (
-      <div className="mt-24 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl md:px-24 lg:px-8 lg:py-20">
+      <div className="mt-24 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
