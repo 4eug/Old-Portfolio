@@ -8,6 +8,7 @@ import Footer from "../components/Footer/footer";
 import Meta from "../components/utilities/meta/meta";
 import { Content } from "../components/Portfolio/Content";
 import { CaseStudies } from "../components/Portfolio/CaseStudies";
+import { UiInspo } from "../components/Portfolio/UiInspo";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -42,6 +43,9 @@ export default function Home() {
       </section>
       <section>
         <CaseStudies/>
+      </section>
+      <section>
+        <UiInspo/>
       </section>
       <Footer />
       <SideBar sideBar={sideBar} />
