@@ -1,3 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
+import {SiBehance, SiTwitter, SiGithub, SiDribbble, SiInstagram, SiLinkedin } from "react-icons/si";
+import {
+  AiFillGithub,
+  AiOutlineDribbble,
+  AiOutlineBehance,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+  AiOutlineLinkedin
+} from "react-icons/ai";
 
 function GetInTouch() {
   return (
@@ -14,7 +24,46 @@ function GetInTouch() {
             </a>
             </h1>
         </div>
-       
+        <div className="mt-6">
+            <ol className=" space-x-3 md:space-x-3">
+              <li className="pl-3 inline-flex items-center">
+                <a href="https://github.com/4eug" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  Github
+                  <AiFillGithub size={30} />
+                </a>
+              </li>
+              <li className="inline-flex">
+                <a href="https://dribbble.com/4eug" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  Dribbble
+                  <AiOutlineDribbble size={30} />
+                </a>
+              </li>
+              <li className="inline-flex">
+                <a href="https://www.behance.net/debraheug" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  Behance
+                  <AiOutlineBehance size={30} />
+                </a>
+              </li>
+              <li className="inline-flex">
+                <a href="https://www.instagram.com/_.4eug/" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  Instagram
+                  <AiOutlineInstagram size={30} />
+                </a>
+              </li>
+              <li className="inline-flex i">
+                <a href="https://twitter.com/4eug_" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  Twitter
+                  <AiOutlineTwitter size={30} />
+                </a>
+              </li>
+              <li className="inline-flex i">
+                <a href="https://www.linkedin.com/in/eugene-debrah/" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
+                  LinkedIn
+                  <AiOutlineLinkedin size={30} />
+                </a>
+              </li>
+            </ol>
+          </div>     
         
       </div>
   );

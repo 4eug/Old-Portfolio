@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 export const UiInspo = () => {
     return (
       <div className="px-4 py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
-        <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
+        <div className="grid max-w-screen-xl xl:max-w-screen-2xl">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
             <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
