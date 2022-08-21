@@ -8,19 +8,19 @@ export const Content = () => {
       {
         names:"Website",
         imgSrc:"/website.svg",
-        href:"/",
+        href:"https://www.makewayapp.com/",
         id: 0
       },
       {
         names:"PlayStore",
         imgSrc:"/playstore.svg",
-        href:"/",
+        href:"https://play.google.com/store/apps/details?id=com.jebo.makeway",
         id: 1
       },
       {
         names:"AppStore",
         imgSrc:"/appstore.svg",
-        href:"/about",
+        href:"https://apps.apple.com/app/makeway-app/id1592269187",
         id: 2
       }
     ]
@@ -28,7 +28,7 @@ export const Content = () => {
       {
         names:"PlayStore",
         imgSrc:"/playstore.svg",
-        href:"/",
+        href:"https://play.google.com/store/apps/details?id=com.tpconnect.ttuportal",
         id: 0
       }, 
     ]
@@ -36,13 +36,13 @@ export const Content = () => {
       {
         names:"PlayStore",
         imgSrc:"/playstore.svg",
-        href:"/",
+        href:"https://play.google.com/store/apps/details?id=com.eugenedebrah.thewallpaper",
         id: 0
       },
       {
         names:"Github",
         imgSrc:"/github.svg",
-        href:"/",
+        href:"https://github.com/4eug/TheWallpaper-App",
         id: 1
       },
     ]
@@ -50,13 +50,13 @@ export const Content = () => {
       {
         names:"Website",
         imgSrc:"/website.svg",
-        href:"/",
+        href:"https://pub.dev/packages/adinkra_icons",
         id: 0
       }, 
       {
         names:"Github",
         imgSrc:"/github.svg",
-        href:"/",
+        href:"https://github.com/4eug/adinkra-icons-flutter",
         id: 1
       }, 
     ]
@@ -65,6 +65,14 @@ export const Content = () => {
         names:"Website",
         imgSrc:"/website.svg",
         href:"/",
+        id: 0
+      }, 
+    ]
+    const chipsContent6 = [
+      {
+        names:"Website",
+        imgSrc:"/website.svg",
+        href:"https://famtechnologiesgh.com/",
         id: 0
       }, 
     ]
@@ -219,7 +227,7 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent5.map((item) => (
+                    {chipsContent6.map((item) => (
                         <Chips
                         names={item.names}
                         src={item.imgSrc}
