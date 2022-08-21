@@ -36,6 +36,7 @@ module.exports = {
         "portfolio-px-350": "350px",
         "portfolio-px-400": "400px",
         "portfolio-px-124": "124px",
+        "portfolio-px-120": "120px",
       },
       borderRadius: {
         "portfolio-px-20": "20px",

@@ -8,7 +8,7 @@
   }
 
   .btn-common {
-    @apply btn w-portfolio-px-124 h-portfolio-px-40;
+    @apply btn w-portfolio-px-120 h-portfolio-px-40;
   }
 
   body {
@@ -17,6 +17,10 @@
 
   button.white {
     @apply btn-common border-2;
+  }
+
+  button.chips {
+    @apply btn w-portfolio-px-120 h-portfolio-px-40 border-2 text-sm;
   }
 
   button.black {
