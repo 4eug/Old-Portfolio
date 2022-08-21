@@ -105,7 +105,7 @@ export const Content = () => {
                       ))}
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                    The doctor said
+                  MakeWay App & Website
                   </h2>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export const Content = () => {
                       ))}
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                    The doctor said
+                  TTU Students App
                   </h2>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export const Content = () => {
                       ))}
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                    The doctor said
+                  TheWallpaper
                   </h2>
                 </div>
               </div>
@@ -181,7 +181,7 @@ export const Content = () => {
                       ))}
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                    The doctor said
+                  Adinkra Icon Pack
                   </h2>
                 </div>
               </div>
@@ -206,7 +206,32 @@ export const Content = () => {
                       ))}
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                    The doctor said
+                  Obodai’s Website
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <img
+                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                className="object-cover w-full h-48 rounded-2xl"
+                alt=""
+              />
+              <div className="">
+                <div className="pt-4">
+                    <div className="flex gap-2 lg:grid-cols-3">
+                    {chipsContent5.map((item) => (
+                        <Chips
+                        names={item.names}
+                        src={item.imgSrc}
+                        href={item.href}
+                        key={item.id}
+                        />
+                      ))}
+                    </div>
+                  <h2 className="mt-4 text-xl leading-5">
+                  FamTechnologies GH Website
                   </h2>
                 </div>
               </div>
