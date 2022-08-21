@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-
-import AboutButton from "../utilities/Buttons/button";
 import Chips from "../utilities/Buttons/chips";
-import ConnectButton from "../utilities/Buttons/connect-btn";
+import { motion } from "framer-motion";
 
 /* eslint-disable @next/next/no-html-link-for-pages */
 export const Content = () => {
@@ -241,7 +239,14 @@ export const Content = () => {
           
         </div>
         <div className="mt-16 mb-10 flex justify-center items-center">
-          <ConnectButton/>
+        <a href="https://github.com/4eug" target="_blank" rel="noreferrer">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              className="black  md:block"
+            >
+              <span className="font-medium ">View More</span>
+            </motion.button>
+          </a>
           </div>
       </div>
     );
