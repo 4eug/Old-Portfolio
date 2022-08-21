@@ -238,7 +238,7 @@ export const Content = () => {
          
           
         </div>
-        <div className="mt-16 mb-10 flex justify-center items-center">
+        <div className="mt-16 mb-1 flex justify-center items-center">
         <a href="https://github.com/4eug" target="_blank" rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
