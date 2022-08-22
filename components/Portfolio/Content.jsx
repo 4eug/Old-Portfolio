@@ -7,7 +7,7 @@ export const Content = () => {
     const chipsContent1 = [
       {
         names:"Website",
-        imgSrc:"/website.svg",
+        imgSrc:"/i.svg",
         href:"https://www.makewayapp.com/",
         id: 0
       },
