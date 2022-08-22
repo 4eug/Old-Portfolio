@@ -26,7 +26,7 @@ function GetInTouch() {
         </div>
         <div className="mt-6">
             <ol className=" space-x-3 md:space-x-3">
-              <li className="pl-3 inline-flex items-center">
+              <li className="pl-3 md:pl-1 inline-flex items-center">
                 <a href="https://github.com/4eug" target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center text-lg ">
                   Github
                   <AiFillGithub size={30} />
