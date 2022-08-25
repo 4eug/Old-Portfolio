@@ -12,7 +12,7 @@ export const CaseStudies = () => {
             "Research",
           points1:"UX Designs",
           points2:"UI Designs",
-          imgSrc: "/Background.png",
+          imgSrc: "/Procrastinator.jpeg",
           lgFlexDirection: "lg:flex-row-reverse",
           status: "View more",
           id: 1,
