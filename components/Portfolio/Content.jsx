@@ -7,7 +7,7 @@ export const Content = () => {
     const chipsContent1 = [
       {
         names:"Website",
-        imgSrc:"/i.svg",
+        imgSrc:"/website.svg",
         href:"https://www.makewayapp.com/",
         id: 0
       },
@@ -94,8 +94,8 @@ export const Content = () => {
          
             <div className="flex flex-col h-full">
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48 rounded-2xl"
+                src="/MakeWay.jpeg"
+                className="object-cover w-full h-48 rounded-2xl border-2"
                 alt=""
               />
               <div className="">
@@ -145,8 +145,8 @@ export const Content = () => {
           
             <div className="flex flex-col h-full">
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48 rounded-2xl"
+                src="/TheWallpaper.png"
+                className="object-cover w-full h-48 rounded-2xl border-2"
                 alt=""
               />
               <div className="">
@@ -170,8 +170,8 @@ export const Content = () => {
 
             <div className="flex flex-col h-full">
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48 rounded-2xl"
+                src="/AdinkraIcons.png"
+                className="object-cover w-full h-48 rounded-2xl border-2"
                 alt=""
               />
               <div className="">
