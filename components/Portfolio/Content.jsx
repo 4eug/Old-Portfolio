@@ -120,8 +120,8 @@ export const Content = () => {
           
             <div className="flex flex-col h-full">
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48 rounded-2xl"
+                src="/TTU StudentsApp.jpg"
+                className="object-cover w-full h-48 rounded-2xl border-2"
                 alt=""
               />
               <div className="">
