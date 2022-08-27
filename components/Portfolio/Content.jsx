@@ -1,82 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Chips from "../utilities/Buttons/chips";
 import { motion } from "framer-motion";
+import WebsiteBtn from "../utilities/Buttons/website";
+import PlaystoreBtn from "../utilities/Buttons/playstore";
+import AppstoreBtn from "../utilities/Buttons/appstore";
+import GithubBtn from "../utilities/Buttons/github";
 
 /* eslint-disable @next/next/no-html-link-for-pages */
 export const Content = () => {
-    const chipsContent1 = [
-      {
-        names:"Website",
-        imgSrc:"/website.svg",
-        href:"https://www.makewayapp.com/",
-        id: 0
-      },
-      {
-        names:"PlayStore",
-        imgSrc:"/playstore.svg",
-        href:"https://play.google.com/store/apps/details?id=com.jebo.makeway",
-        id: 1
-      },
-      {
-        names:"AppStore",
-        imgSrc:"/appstore.svg",
-        href:"https://apps.apple.com/app/makeway-app/id1592269187",
-        id: 2
-      }
-    ]
-    const chipsContent2 = [
-      {
-        names:"PlayStore",
-        imgSrc:"/playstore.svg",
-        href:"https://play.google.com/store/apps/details?id=com.tpconnect.ttuportal",
-        id: 0
-      }, 
-    ]
-    const chipsContent3 = [
-      {
-        names:"PlayStore",
-        imgSrc:"/playstore.svg",
-        href:"https://play.google.com/store/apps/details?id=com.eugenedebrah.thewallpaper",
-        id: 0
-      },
-      {
-        names:"Github",
-        imgSrc:"/github.svg",
-        href:"https://github.com/4eug/TheWallpaper-App",
-        id: 1
-      },
-    ]
-    const chipsContent4 = [
-      {
-        names:"Website",
-        imgSrc:"/website.svg",
-        href:"https://pub.dev/packages/adinkra_icons",
-        id: 0
-      }, 
-      {
-        names:"Github",
-        imgSrc:"/github.svg",
-        href:"https://github.com/4eug/adinkra-icons-flutter",
-        id: 1
-      }, 
-    ]
-    const chipsContent5 = [
-      {
-        names:"Website",
-        imgSrc:"/website.svg",
-        href:"/",
-        id: 0
-      }, 
-    ]
-    const chipsContent6 = [
-      {
-        names:"Website",
-        imgSrc:"/website.svg",
-        href:"https://famtechnologiesgh.com/",
-        id: 0
-      }, 
-    ]
-
     return (
       <div className="mt-24 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
@@ -101,14 +32,9 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
-                      {chipsContent1.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                     <WebsiteBtn href="https://www.makewayapp.com/"/>
+                     <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.jebo.makeway"/>
+                      <AppstoreBtn href="https://apps.apple.com/app/makeway-app/id1592269187"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
                   MakeWay App & Website
@@ -127,14 +53,7 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent2.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                      <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.tpconnect.ttuportal"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
                   TTU Students App
@@ -152,14 +71,8 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent3.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                      <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.eugenedebrah.thewallpaper"/>
+                      <GithubBtn href="https://github.com/4eug/TheWallpaper-App"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
                   TheWallpaper
@@ -177,14 +90,8 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent4.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                      <WebsiteBtn href="https://pub.dev/packages/adinkra_icons"/>
+                      <GithubBtn href="https://github.com/4eug/adinkra-icons-flutter"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
                   Adinkra Icon Pack
@@ -202,14 +109,7 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent5.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                    <WebsiteBtn href=""/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
                   Obodai’s Website
@@ -227,17 +127,10 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    {chipsContent6.map((item) => (
-                        <Chips
-                        names={item.names}
-                        src={item.imgSrc}
-                        href={item.href}
-                        key={item.id}
-                        />
-                      ))}
+                   <WebsiteBtn href="https://famtechnologiesgh.com/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                  FamTechnologies GH Website
+                  FamTech Website
                   </h2>
                 </div>
               </div>
