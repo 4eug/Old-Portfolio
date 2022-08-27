@@ -8,7 +8,7 @@ const Meta = (props) => {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta property="og:title" content={props.title} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" itemProp="image" content="https://www.makewayapp.com/_next/image?url=%2Fwoman-car.webp&w=750&q=75" />
+            <meta property="og:image" itemProp="image" content="" />
             <meta property="og:description" content="Software Developer & Product Designer." />
             <meta property="og:site_name" content={props.title} />
             <meta property="twitter:card" content="summary_large_image" />
