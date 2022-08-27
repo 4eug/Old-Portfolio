@@ -18,7 +18,7 @@ function GetInTouch() {
             Have an idea? Tell us about it
             </h1>
           </div>
-          <h1 className="py-4 md:py-10 ml-2 text-2xl md:text-4xl">
+          <h1 className="py-4 md:py-10 ml-2 text-2xl md:text-3xl">
           <a href="mailto:debraheug@gmail.com" target="_blank" rel="nofollow noopener noreferrer">
             debraheug@gmail.com
             </a>
