@@ -94,7 +94,7 @@ export const Content = () => {
                       <GithubBtn href="https://github.com/4eug/adinkra-icons-flutter"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5">
-                  Adinkra Icon Pack
+                  Adinkra Flutter Icon Pack
                   </h2>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export const Content = () => {
           
         </div>
         <div className="mt-16 mb-1 flex justify-center items-center">
-        <a href="https://github.com/4eug" target="_blank" rel="noreferrer">
+        <a href="https://github.com/4eug?tab=repositories" target="_blank" rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="black  md:block"
