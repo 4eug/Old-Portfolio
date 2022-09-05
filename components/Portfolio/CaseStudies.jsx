@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Chips from "../utilities/Buttons/chips";
 import { motion } from "framer-motion";
 import DesignCard from "../utilities/Cards/designCard";
 
@@ -9,9 +8,9 @@ export const CaseStudies = () => {
         {
           title: "Procrastinator",
           points:
-            "Research",
-          points1:"UX Designs",
-          points2:"UI Designs",
+            "Research,",
+          points1:"UX Designs,",
+          points2:"UI Designs,",
           imgSrc: "/Procrastinator.jpeg",
           lgFlexDirection: "lg:flex-row-reverse",
           status: "View more",
@@ -20,8 +19,8 @@ export const CaseStudies = () => {
         {
           title: "FamTech Website",
           points:
-            "Research",
-          points1:"UX Designs",
+            "Research,",
+          points1:"UX Designs,",
           imgSrc: "/Background.png",
           status: "View more",
           id: 2,
@@ -30,9 +29,8 @@ export const CaseStudies = () => {
         {
           title: "MakeWay App",
           points:
-            "Research",
-          points1:"UX Designs",
-          points2:"UI Designs",
+            "Product Design,",
+          points1:"Branding & Illustrations,",
           imgSrc: "/Background.png",
           lgFlexDirection: "lg:flex-row-reverse",
           text: "text", 
@@ -70,7 +68,7 @@ export const CaseStudies = () => {
         ))}
        </div>
         <div className="mt-20 flex justify-center items-center">
-        <a href="" target="_blank" rel="noreferrer">
+        <a href="/case-studies" rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="black  md:block"
