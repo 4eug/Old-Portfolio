@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import { motion } from "framer-motion";
 import React from "react";
 
 function DesignCard(props) {
@@ -23,11 +24,12 @@ function DesignCard(props) {
             <h3 className="">{props.points2}</h3>
             </div>
             <h2 className="mt-5 text-3xl">{props.title}</h2>
-            <button
+            <motion.button
+              whileHover={{ scale: 1.05 }}
               className="black mt-6 md:block"
             >
               <span>{props.status}</span>
-            </button>
+            </motion.button>
           </div>
         </div>
 
