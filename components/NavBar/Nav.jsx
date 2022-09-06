@@ -3,9 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { IoClose, IoMenu } from "react-icons/io5";
-import LinkButton from "../utilities/Buttons/button";
 import Mode from "../utilities/Buttons/mode";
+import { motion } from "framer-motion";
 import AboutButton from "../utilities/Buttons/button";
+
 
 function Nav(props) {
   return (
@@ -27,6 +28,16 @@ function Nav(props) {
       <Mode />
       </div>
       <AboutButton/>
+      {/* <Link href="/about">
+      <a>
+      <motion.button
+        whileHover={{ scale: 1.05 }}
+        className="white hidden md:block"
+      >
+        <span className="font-medium text-base">About Me</span>
+      </motion.button>
+    </a>
+    </Link> */}
 
       <div className="block md:hidden ">
         <div
