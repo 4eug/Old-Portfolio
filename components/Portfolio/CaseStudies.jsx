@@ -77,6 +77,6 @@ export const CaseStudies = () => {
             </motion.button>
           </a>
           </div>
-      </div>
+      </div>  
     );
   };
