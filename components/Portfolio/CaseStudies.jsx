@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
+import Link from "next/link";
 import DesignCard from "../utilities/Cards/designCard";
 
 /* eslint-disable @next/next/no-html-link-for-pages */
@@ -68,7 +69,8 @@ export const CaseStudies = () => {
         ))}
        </div>
         <div className="mt-20 flex justify-center items-center">
-        <a href="/case-studies" rel="noreferrer">
+          <Link href="/case-studies">
+          <a  rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="black  md:block"
@@ -76,6 +78,7 @@ export const CaseStudies = () => {
               <span className="font-medium ">View More</span>
             </motion.button>
           </a>
+          </Link>
           </div>
       </div>  
     );
