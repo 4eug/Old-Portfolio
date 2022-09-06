@@ -2,9 +2,11 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
+import Fade from 'react-awesome-reveal';
 
 function DesignCard(props) {
   return (
+    <Fade>
     <div className="mt-32">
       <div
         className={`flex ${
@@ -44,6 +46,7 @@ function DesignCard(props) {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
 
