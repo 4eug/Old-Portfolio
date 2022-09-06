@@ -1,37 +1,30 @@
 /* eslint-disable @next/next/no-img-element */
 import React, {useState} from "react";
 import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
-// import { Spline } from "@splinetool/react-spline";
-// const Spline = require("@splinetool/react-spline");
+
+let easing = [0.6, -0.05, 0.01, 0.99];
+
+const fadeInUp = {
+  initial: {
+    y: 60,
+    opacity: 0,
+    transition: { duration: 0.6, ease: easing }
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: easing
+    }
+  }
+};
 
 const Hero = () => {
- const [state] = useState({
-   title: "Hi, I’m Eugene",
-    subtitle: "",
-
- });
-
   return (
-    <div name="home" className="w-full h-full flex flex-col justify-between ">
+    <motion.div name="home" initial='initial' animate='animate' exit={{ opacity: 0 }} className="w-full h-full flex flex-col justify-between ">
       <div className="grid md:grid-cols-1 max-w-auto ml-2 md:ml-32 mt-16 md:mt-44">
-        <div
-          initial="initial"
-          animate="animate"
-          variants={{
-            hidden: {
-              scale: 0.8,
-              opacity: 0,
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              transition: {
-                delay: 0.5,
-              },
-            },
-          }}
-          className="flex flex-col justify-center md:items-start 2xl:pl-24 2xl:mb-28 w-full px-2 py-8 "
+        <motion.div variants={fadeInUp} className="flex flex-col justify-center md:items-start 2xl:pl-24 2xl:mb-28 w-full px-2 py-8 "
         >
           <h1 className="text-4xl md:text-5xl font-bold ">
           the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span>
@@ -42,9 +35,9 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mt-2 ">
           and the ❤️ of learning. 
           </h1>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
