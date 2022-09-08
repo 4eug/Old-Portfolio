@@ -3,6 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
 import Fade from 'react-awesome-reveal';
+import Link from "next/link";
 
 function DesignCard(props) {
   return (
@@ -26,12 +27,14 @@ function DesignCard(props) {
             <h3 className="">{props.points2}</h3>
             </div>
             <h2 className="mt-5 text-3xl">{props.title}</h2>
+            <Link href={props.url} passHref>
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="black mt-6 md:block"
             >
               <span>{props.status}</span>
             </motion.button>
+            </Link>
           </div>
         </div>
 

@@ -13,6 +13,7 @@ export const CaseStudies = () => {
           points1:"UX Designs,",
           points2:"UI Designs,",
           imgSrc: "/Procrastinator.jpeg",
+          url:"https://www.behance.net/gallery/151747077/Procrastinator-UIUX-Case-Study",
           lgFlexDirection: "lg:flex-row-reverse",
           status: "View more",
           id: 1,
@@ -23,6 +24,7 @@ export const CaseStudies = () => {
             "Research,",
           points1:"UX Designs,",
           imgSrc: "/Background.png",
+          url:"",
           status: "View more",
           id: 2,
           
@@ -33,6 +35,7 @@ export const CaseStudies = () => {
             "Product Design,",
           points1:"Branding & Illustrations,",
           imgSrc: "/Background.png",
+          url:"",
           lgFlexDirection: "lg:flex-row-reverse",
           text: "text", 
           status: "Coming Soon",
@@ -61,6 +64,7 @@ export const CaseStudies = () => {
             points1={item.points1}
             points2={item.points2}
             src={item.imgSrc}
+            url={item.url}
             lgFlexDirection={item.lgFlexDirection}
             text={item.text}
             status={item.status}
@@ -69,7 +73,7 @@ export const CaseStudies = () => {
         ))}
        </div>
         <div className="mt-20 flex justify-center items-center">
-          <Link href="/case-studies">
+          <Link href="https://www.behance.net/debraheug">
           <a  rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
