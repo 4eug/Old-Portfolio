@@ -43,7 +43,7 @@ const Hero = (props) => {
        ))}
       </div>
       
-      <div className="mt-10 relative">
+      <div className="mt-20 relative">
       <Image
       src="/procrastinator-image.svg"
       width="1440"
