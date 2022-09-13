@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Hero = (props) => { 
   const about =[
     {
@@ -38,10 +40,18 @@ const Hero = (props) => {
         <h1 className="text-lg font-medium">{item.title}</h1>
         <p className="text-sm">{item.description}</p>
        </div>
-       
        ))}
       </div>
       
+      <div className="mt-10 relative">
+      <Image
+      src="/procrastinator-image.svg"
+      width="1440"
+      height="587"
+      priority
+      alt=""
+      />    
+    </div>
     </div>
       )
 };
