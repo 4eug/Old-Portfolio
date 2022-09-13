@@ -11,6 +11,8 @@ import Research from "../../components/CaseStudies/Procrastinator/research";
 import UserFlow from "../../components/CaseStudies/Procrastinator/user-flow";
 import DesignSoln from "../../components/CaseStudies/Procrastinator/design-soln";
 import MockUps from "../../components/CaseStudies/Procrastinator/mock-ups";
+import DesignDescription from "../../components/CaseStudies/Procrastinator/design-description";
+
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -33,6 +35,7 @@ export default function Home() {
       <UserFlow/>
       </section>
       <DesignSoln/>
+      <DesignDescription/>
       <MockUps/>
 
       {/* <Footer/> */}
