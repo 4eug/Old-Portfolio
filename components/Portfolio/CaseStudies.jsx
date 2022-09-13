@@ -13,7 +13,7 @@ export const CaseStudies = () => {
           points1:"UX Designs,",
           points2:"UI Designs,",
           imgSrc: "/Procrastinator.jpeg",
-          url:"https://www.behance.net/gallery/151747077/Procrastinator-UIUX-Case-Study",
+          url:"/Case-Studies/Procrastinator",
           lgFlexDirection: "lg:flex-row-reverse",
           status: "View more",
           id: 1,
