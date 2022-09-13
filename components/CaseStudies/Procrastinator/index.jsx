@@ -26,7 +26,7 @@ const Hero = (props) => {
         </h1>
       </div>
       <div className='w-full sm:w-2/3 lg:pr-16'>
-        <h1 className="text-4xl md:text-6xl font-semibold">Pro<span className="text-blue-500">cras</span>tinator</h1>
+        <h1 className="text-4xl md:text-6xl font-semibold">Pro<span className="text-procrastinator-blue">cras</span>tinator</h1>
        <p className='ml-0 mt-4 text-left text-md leading-snug'>
        People tend to procrastinate most of the time. Procrastination is a voluntary behavior that makes people postpone critical activities or duties,
        preferring actions that allow for immediate pleasure. This results in failing to meet the deadlines of a task or something that goes long-term,

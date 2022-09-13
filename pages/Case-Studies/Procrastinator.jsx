@@ -8,6 +8,9 @@ import About from "../../components/About/About";
 import Footer from "../../components/Footer/footer";
 import Hero from "../../components/CaseStudies/Procrastinator";
 import Research from "../../components/CaseStudies/Procrastinator/research";
+import UserFlow from "../../components/CaseStudies/Procrastinator/user-flow";
+import DesignSoln from "../../components/CaseStudies/Procrastinator/design-soln";
+import MockUps from "../../components/CaseStudies/Procrastinator/mock-ups";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -26,6 +29,11 @@ export default function Home() {
 
       <Hero/>
       <Research/>
+      <section className='bg-procrastinator-blue mt-10 px-6 pt-10 lg:px-36 pb-20'>
+      <UserFlow/>
+      </section>
+      <DesignSoln/>
+      <MockUps/>
 
       {/* <Footer/> */}
       <SideBar sideBar={sideBar} />
