@@ -6,6 +6,7 @@ import SideBar from "../../components/NavBar/sideBar";
 import Meta from "../../components/utilities/meta/meta";
 import About from "../../components/About/About";
 import Footer from "../../components/Footer/footer";
+import Hero from "../../components/CaseStudies/Procrastinator";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -21,7 +22,10 @@ export default function Home() {
       <section>
         <MiniNav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
-      <Footer/>
+
+      <Hero/>
+
+      {/* <Footer/> */}
       <SideBar sideBar={sideBar} />
     </>
   );
