@@ -7,6 +7,7 @@ import Meta from "../../components/utilities/meta/meta";
 import About from "../../components/About/About";
 import Footer from "../../components/Footer/footer";
 import Hero from "../../components/CaseStudies/Procrastinator";
+import Research from "../../components/CaseStudies/Procrastinator/research";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -24,6 +25,7 @@ export default function Home() {
       </section>
 
       <Hero/>
+      <Research/>
 
       {/* <Footer/> */}
       <SideBar sideBar={sideBar} />
