@@ -38,22 +38,22 @@ function Research() {
           </p>
         </div>
         <div className="mt-10 m-auto flex justify-center items-center">
-      <Image
-      src="/research-cards.svg"
-      width="1136"
-      height="404"
-      priority
-      alt=""
-      />    
+            <Image
+            src="/research-cards.svg"
+            width="1136"
+            height="404"
+            priority
+            alt=""
+            />    
         </div>
         <div className="mt-10 m-auto flex">
-      <Image
-      src="/user-persona.svg"
-      width="1440"
-      height="1212"
-      priority
-      alt=""
-      />    
+            <Image
+            src="/user-persona.svg"
+            width="1440"
+            height="1212"
+            priority
+            alt=""
+            />    
         </div>
       </div>
   </section>
