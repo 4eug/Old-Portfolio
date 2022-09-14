@@ -19,6 +19,7 @@ const Hero = (props) => {
     }
   ]
     return (
+      <div>
       <div className='w-full flex items-start mt-10 justify-center flex-wrap pb-4 sm:pb-10 md:pb-12 lg:pb-16 px-4 lg:pl-10'>
       <div className='w-full sm:w-1/4 pb-8 sm:pb-0 sm:pl-0 lg:pl-10'>
         <h1 className='ml-0 text-left text-xl leading-snug'>
@@ -43,11 +44,13 @@ const Hero = (props) => {
        ))}
       </div>
       
-      <div className="mt-20 relative">
+     
+    </div>
+    <div className="mt-20 relative">
       <Image
       src="/procrastinator-image.svg"
       width="1440"
-      height="587"
+      height="700"
       priority
       alt=""
       />    
