@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function MockUps() {
   return (
-    <div className="mt-4 text-center"> 
+    <div className="mt-2 md:mt-40 text-center"> 
       <h6 className="text-3xl md:text-5xl font-semibold">Mockups</h6>
         <div className="flex justify-center items-center">
             <p className='mt-2 text-center text-base md:text-base max-w-4xl'>
