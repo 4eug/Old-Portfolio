@@ -46,16 +46,17 @@ function Research() {
             alt=""
             />    
         </div>
-        <div className="mt-10 m-auto flex">
+        
+      </div>
+      <div className="mt-10 m-auto justify-center items-center">
             <Image
             src="/user-persona.svg"
             width="1440"
-            height="1212"
+            height="1450"
             priority
             alt=""
             />    
         </div>
-      </div>
   </section>
   )
 }
