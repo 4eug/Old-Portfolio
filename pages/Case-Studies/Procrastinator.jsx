@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MiniNav from "../../components/NavBar/miniNav";
+import Nav from "../../components/NavBar/Nav";
 import { useState } from "react";
 import { CustomCursor } from "../../components/CustomCursor";
 import SideBar from "../../components/NavBar/sideBar";
@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
 
       <section>
-        <MiniNav sideBar={sideBar} setSideBar={setSideBar} />
+        <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
 
       <Hero/>
@@ -40,7 +40,6 @@ export default function Home() {
       <DesignSoln/>
       <DesignDescription/>
       <MockUps/>
-
       <Footer/>
       <SideBar sideBar={sideBar} />
       </ThemeProvider>
