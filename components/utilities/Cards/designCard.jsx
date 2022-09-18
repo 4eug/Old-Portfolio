@@ -12,7 +12,7 @@ function DesignCard(props) {
         className={`flex ${
           props.flexDirection ?? "flex-col"
         } w-full bg-slate-40 justify-center gap-8
-      lg:gap-24 
+      lg:gap-2 
       lg:h-portfolio-px-300
       ${props.lgFlexDirection ?? "lg:flex-row"}
       

@@ -14,7 +14,7 @@ export const Content = () => {
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
             <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
-              Some Projects 💻
+              My Software <br /> Engineer Experience 💻
             </h1>
             <p className="text-xl leading-relaxed">
             These are some of the projects I have worked.
