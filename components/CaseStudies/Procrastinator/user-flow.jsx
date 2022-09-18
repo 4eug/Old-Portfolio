@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal';
 
 function UserFlow() {
   return (
+    <Fade cascade>
     <div className="text-center"> 
       <h6 className="text-3xl md:text-5xl text-white font-semibold">Userflow Map</h6>
         <div className="flex justify-center items-center">
@@ -20,6 +22,7 @@ function UserFlow() {
             />    
         </div>
     </div>
+    </Fade>
   )
 }
 
