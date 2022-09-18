@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal'
 
 function Research() {
   return (
+    <Fade cascade>
     <section className="pt-2">
     <div className="text-center"> 
       <h6 className="mt-4 text-xl md:text-4xl font-semibold">Goal</h6>
@@ -58,6 +60,7 @@ function Research() {
             />    
         </div>
   </section>
+  </Fade>
   )
 }
 
