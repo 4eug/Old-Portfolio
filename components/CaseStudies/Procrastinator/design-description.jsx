@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from 'react-awesome-reveal'
 import Design_Card from './design-card'
 
 function DesignDescription() {
@@ -22,7 +23,7 @@ function DesignDescription() {
       width: '358',
       height: '580',
       point: 'Quickly create tasks thanks to the to-do.function. Specify the particular day and time to be reminded so you dont forget to caary-out your activities.Finally you can assign priority to your tasks',
-      lgFlexDirection: "lg:flex-row-reverse",
+      lgFlexDirection: "lg:flex-row",
       id: 1,
     },
     {
@@ -37,10 +38,10 @@ function DesignDescription() {
     }
   ]
   return (
-    <div>
+    <Fade cascade>
         <div className="grid ml-2 md:ml-32 2xl:ml-72">
         <div className="flex flex-col justify-center md:items-start 2xl:pl-2 2xl:mb-2 w-full px-2 py-8 ">
-          <h1 className="text-2xl md:text-5xl font-bold">
+          <h1 className="text-2xl md:text-5xl font-semibold">
           Design
           </h1>
         </div>
@@ -61,7 +62,7 @@ function DesignDescription() {
           ))}
         </div>
       </div>
-    </div>
+    </Fade>
   )
 }
 
