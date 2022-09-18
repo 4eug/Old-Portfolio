@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal'
 
 function MockUps() {
   return (
+    <Fade cascade>
     <div className="mt-2 md:mt-40 text-center"> 
       <h6 className="text-3xl md:text-5xl font-semibold">Mockups</h6>
         <div className="flex justify-center items-center">
@@ -21,6 +23,7 @@ function MockUps() {
             />    
         </div>
     </div>
+    </Fade>
   )
 }
 
