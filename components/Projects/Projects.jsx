@@ -35,18 +35,25 @@ const fadeInUp = {
 
 const Projects = () => {
   return (
-    <motion.section initial='initial' animate='animate' exit={{ opacity: 0 }} className="pt-16 md:pt-28">
+    <motion.section initial='initial' animate='animate' exit={{ opacity: 0 }} className="pt-8 md:pt-20">
         <div variants={fadeInUp} className="text-center flex gap-3 justify-center"> 
-          <h6 className="mt-8 text-5xl">Projects</h6>
-          <img className="object-center " src="/Code.svg" alt="/" />
+          <h6 className="mt-8 text-[36px] md:text-[50px]">Projects</h6>
+          <img className="mt-10 md:mt-12 h-[38px] w-[38px] md:h-[45px] md:w-[45px]" src="/Code.svg" alt="/" />
         </div>
-        <div className="mt-24 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
+        <div className="flex justify-center items-center">
+          <p className='mt-4 text-center text-lg max-w-2xl'>
+          I’ve built and worked on applications and websites 
+            using anything from HTML to React Flutter and Nodejs etc.Here are some 
+            of my favorite projects over the course of my learning journey.
+              </p>
+          </div>
+        <div className="py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
          
             <div className="flex flex-col h-full">
               <img
                 src="/MakeWay.jpeg"
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -56,7 +63,7 @@ const Projects = () => {
                      <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.jebo.makeway"/>
                       <AppstoreBtn href="https://apps.apple.com/app/makeway-app/id1592269187"/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   MakeWay App & Website
                   </h2>
                 </div>
@@ -67,7 +74,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TTU StudentsApp.jpg"
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -75,7 +82,7 @@ const Projects = () => {
                     <div className="flex gap-2 lg:grid-cols-3">
                       <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.tpconnect.ttuportal"/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   TTU Students App
                   </h2>
                 </div>
@@ -85,7 +92,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TheWallpaper.png"
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -94,7 +101,7 @@ const Projects = () => {
                       <PlaystoreBtn href="https://play.google.com/store/apps/details?id=com.eugenedebrah.thewallpaper"/>
                       <GithubBtn href="https://github.com/4eug/TheWallpaper-App"/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   TheWallpaper
                   </h2>
                 </div>
@@ -104,7 +111,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/AdinkraIcons.png"
-                className="object-cover w-full h-48 rounded-2xl "
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl "
                 alt=""
               />
               <div className="">
@@ -113,7 +120,7 @@ const Projects = () => {
                       <WebsiteBtn href="https://pub.dev/packages/adinkra_icons"/>
                       <GithubBtn href="https://github.com/4eug/adinkra-icons-flutter"/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Adinkra Flutter Icon Pack
                   </h2>
                 </div>
@@ -123,7 +130,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Obodai.png"
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -131,7 +138,7 @@ const Projects = () => {
                     <div className="flex gap-2 lg:grid-cols-3">
                     <WebsiteBtn href=""/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Obodai’s Website
                   </h2>
                 </div>
@@ -141,7 +148,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src=""
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -149,7 +156,43 @@ const Projects = () => {
                     <div className="flex gap-2 lg:grid-cols-3">
                    <WebsiteBtn href="https://famtechnologiesgh.com/"/>
                     </div>
-                  <h2 className="mt-4 text-xl leading-5">
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
+                  FamTech Website
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <img
+                src=""
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                alt=""
+              />
+              <div className="">
+                <div className="pt-4">
+                    <div className="flex gap-2 lg:grid-cols-3">
+                   <WebsiteBtn href="https://famtechnologiesgh.com/"/>
+                    </div>
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
+                  FamTech Website
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <img
+                src=""
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                alt=""
+              />
+              <div className="">
+                <div className="pt-4">
+                    <div className="flex gap-2 lg:grid-cols-3">
+                   <WebsiteBtn href="https://famtechnologiesgh.com/"/>
+                    </div>
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   FamTech Website
                   </h2>
                 </div>
