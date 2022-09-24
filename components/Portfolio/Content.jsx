@@ -118,7 +118,7 @@ export const Content = () => {
               </div>
             </div>
 
-            <div className="flex flex-col h-full">
+            {/* <div className="flex flex-col h-full">
               <img
                 src=""
                 className="object-cover w-full h-48 rounded-2xl"
@@ -134,7 +134,7 @@ export const Content = () => {
                   </h2>
                 </div>
               </div>
-            </div>
+            </div> */}
           
          
           
