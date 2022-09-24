@@ -43,7 +43,7 @@ const Projects = () => {
         <div className="flex justify-center items-center">
           <p className='mt-4 text-center text-lg max-w-2xl'>
           I’ve built and worked on applications and websites 
-            using anything from HTML to React Flutter and Nodejs etc.Here are some 
+            using anything from HTML to React Flutter and Nodejs etc. Here are some 
             of my favorite projects over the course of my learning journey.
               </p>
           </div>

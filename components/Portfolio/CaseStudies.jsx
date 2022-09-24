@@ -34,7 +34,7 @@ export const CaseStudies = () => {
           points:
             "Product Design,",
           points1:"Branding & Illustrations,",
-          imgSrc: "/Background.png",
+          imgSrc: "/MakeWay.jpeg",
           url:"",
           lgFlexDirection: "lg:flex-row-reverse",
           text: "text", 
@@ -73,7 +73,7 @@ export const CaseStudies = () => {
         ))}
        </div>
         <div className="mt-20 flex justify-center items-center">
-          <Link href="https://www.behance.net/debraheug">
+          <Link href="/designs">
           <a  rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
