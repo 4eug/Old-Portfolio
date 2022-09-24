@@ -7,7 +7,7 @@ import Meta from "../components/utilities/meta/meta";
 import About from "../components/About/About";
 import Footer from "../components/Footer/footer";
 
-export default function Home() {
+export default function AboutPage() {
   const [sideBar, setSideBar] = useState(false);
   return (
     <>

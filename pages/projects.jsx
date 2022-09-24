@@ -8,7 +8,7 @@ import Footer from "../components/Footer/footer";
 import Projects from "../components/Projects/Projects";
 import GetInTouch from "../components/GetInTouch/getInTouch";
 
-export default function Home() {
+export default function Project() {
   const [sideBar, setSideBar] = useState(false);
   return (
     <>
