@@ -2,11 +2,22 @@ import { ThemeProvider } from "next-themes";
 import "../styles/globals.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import Preloader from "../components/preloader";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => setLoading(false), 3000);
+  },[])
+
   return (
-    <ThemeProvider>
+    <>
+    { !loading ? (
+      <ThemeProvider>
       <AnimatePresence mode="wait">
         <motion.div
         key={router.route}
@@ -35,6 +46,10 @@ function MyApp({ Component, pageProps }) {
       </motion.div>
       </AnimatePresence>
     </ThemeProvider>
+    ):(
+      <Preloader/>
+    )}
+    </>
   );
 }
 
