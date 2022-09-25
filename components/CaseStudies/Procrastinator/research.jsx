@@ -50,7 +50,7 @@ function Research() {
         </div>
         
       </div>
-      <div className="mt-10 m-auto justify-center items-center">
+      <div className="mt-10 m-auto justify-center items-center 2xl:ml-40">
             <Image
             src="/user-persona.svg"
             width="1440"

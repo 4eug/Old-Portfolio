@@ -10,8 +10,19 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-html-link-for-pages */
 export const Content = () => {
     return (
-      <div className="py-16 md:ml-24 sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
-        <div className="grid gap-10 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
+      <div className="mt-28 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
+        <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
+          <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
+            
+            <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
+              My Software <br /> Engineer Experience 💻
+            </h1>
+            <p className="text-xl leading-relaxed">
+            These are some of the projects I have worked.
+            </p>
+          </div>
+        </div>
+        <div className="mt-10 grid gap-10 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
          
             <div className="flex flex-col h-full">
               <img
