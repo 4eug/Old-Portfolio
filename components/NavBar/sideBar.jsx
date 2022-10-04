@@ -20,11 +20,13 @@ const SideBar = (props) => {
           >
             <div className="m-auto m">
               <ul className="flex flex-col items-center gap-10">
-                <a href="/about">
+                <Link href="/about">
+                <a>
                   <button className="white">
                     About Me 
                   </button>
                 </a>
+                </Link>
               </ul>
             </div>
           </motion.div>
