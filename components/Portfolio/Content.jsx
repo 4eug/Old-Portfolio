@@ -47,7 +47,7 @@ export const Content = () => {
           
             <div className="flex flex-col h-full">
               <img
-                src="/TTU StudentsApp.jpg"
+                src="/TTU-studentsApp.jpg"
                 className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
