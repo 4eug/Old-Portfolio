@@ -32,6 +32,7 @@ export default function Home() {
       <Meta title="4eug Portfolio" />
       <Head>
         <meta name="description" content="Developed by Me" />
+        <meta property="og:title" content="4eug Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

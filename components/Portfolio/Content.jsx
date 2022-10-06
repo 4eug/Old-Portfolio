@@ -22,7 +22,7 @@ export const Content = () => {
             </p>
           </div>
         </div>
-        <div className="mt-10 grid gap-10 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
+        <div className="mt-10 grid gap-10 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2 2xl:pl-16">
          
             <div className="flex flex-col h-full">
               <img

@@ -16,6 +16,7 @@ export default function Design() {
       <Meta title="Designs" />
       <Head>
         <meta name="description" content="Developed by Me" />
+        <meta property="og:title" content="Designs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

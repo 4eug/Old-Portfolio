@@ -16,6 +16,7 @@ export default function Project() {
       <Meta title="Projects" />
       <Head>
         <meta name="description" content="Developed by Me" />
+        <meta property="og:title" content="Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

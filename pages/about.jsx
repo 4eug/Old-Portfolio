@@ -15,6 +15,7 @@ export default function AboutPage() {
       <Meta title="About Me" />
       <Head>
         <meta name="description" content="Developed by Me" />
+        <meta property="og:title" content="About Me" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
