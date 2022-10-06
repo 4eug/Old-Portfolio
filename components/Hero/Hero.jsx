@@ -24,9 +24,9 @@ const Hero = () => {
   return (
     <motion.div name="home" initial='initial' animate='animate' exit={{ opacity: 0 }} className="w-full h-full flex flex-col justify-between ">
       <div className="grid md:grid-cols-1 max-w-auto ml-2 md:ml-32 mt-16 md:mt-44">
-        <motion.div variants={fadeInUp} className="flex flex-col justify-center md:items-start 2xl:pl-24 2xl:mb-28 w-full px-2 py-8 "
+        <motion.div variants={fadeInUp} className="flex flex-col justify-center md:items-start  2xl:pl-[80px] 2xl:mb-28 w-full md:px-[1px] px-2 py-8"
         >
-          <h1 className="text-4xl md:text-5xl font-bold ">
+          <h1 className="text-4xl md:text-5xl font-bold">
           the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span>
           </h1>
           <h1 className="text-4xl md:text-5xl font-bold mt-2">
