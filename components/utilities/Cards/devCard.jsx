@@ -9,7 +9,7 @@ const DevCard = (props) => {
       <div className="flex flex-col h-full">
               <img
                 src={props.src}
-                className="object-cover w-full h-48 rounded-2xl"
+                className="object-cover w-[310px] h-[240px] md:w-[360px] md:h-[240px] rounded-2xl"
                 alt=""
               />
               <div className="">

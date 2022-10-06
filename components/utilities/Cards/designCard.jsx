@@ -18,9 +18,9 @@ function DesignCard(props) {
       
       `}
       >
-        <div className="w-full flex items-center">
+        <div className="w-full flex items-center 2xl:px-[65px]">
           <div>
-            <div className="flex gap-2 md:gap-2 lg:grid-cols-3">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
             <h3 className="">{props.points}</h3>
             <h3 className="">{props.points1}</h3>
             <h3 className="">{props.points2}</h3>
@@ -41,7 +41,7 @@ function DesignCard(props) {
           <div className="h-full w-full relative">
             <img
                 src={props.src}
-                className="object-cover w-full h-72"
+                className="object-cover w-full h-72 2xl:px-[65px]"
                 alt=""
               />
           </div>

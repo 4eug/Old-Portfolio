@@ -10,7 +10,7 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-html-link-for-pages */
 export const Content = () => {
     return (
-      <div className="mt-28 px-4 py-16 md:ml-24  sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:m-auto md:px-24 lg:px-8 lg:py-20">
+      <div className="mt-28 px-4 py-16 sm:max-w-xl md:max-w-full lg:px-[130px] lg:py-20">
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
@@ -27,7 +27,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/MakeWay.jpeg"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[330px] md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -48,7 +48,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TTU-studentsApp.jpg"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[330px] md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -66,7 +66,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TheWallpaper.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[330px] md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -85,7 +85,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/AdinkraIcons.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl "
+                className="object-cover w-[330px] md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
@@ -104,7 +104,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Obodai.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[330px] md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
