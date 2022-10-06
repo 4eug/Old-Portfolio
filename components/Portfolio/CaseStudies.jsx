@@ -68,7 +68,7 @@ export const CaseStudies = () => {
             lgFlexDirection={item.lgFlexDirection}
             text={item.text}
             status={item.status}
-            key={item.key}
+            key={item.id}
             />
         ))}
        </div>

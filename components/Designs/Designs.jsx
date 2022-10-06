@@ -39,7 +39,7 @@ const Designs = () => {
     <motion.section initial='initial' animate='animate' exit={{ opacity: 0 }} className="pt-8 md:pt-20">
         <div variants={fadeInUp} className="text-center flex gap-3 justify-center"> 
           <h6 className="mt-8 text-[36px] md:text-[50px]">Designs</h6>
-          <img className="mt-10 md:mt-12 h-[38px] w-[38px] md:h-[45px] md:w-[45px]" src="/Code.svg" alt="/" />
+          <img className="mt-10 md:mt-12 h-[38px] w-[38px] md:h-[45px] md:w-[45px]" src="/Code.svg" alt="design-icon" />
         </div>
         <div className="flex justify-center items-center">
           <p className='mt-4 text-center text-lg max-w-2xl'>
