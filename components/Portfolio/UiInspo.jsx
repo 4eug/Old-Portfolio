@@ -5,11 +5,11 @@ import Marquee from "react-fast-marquee";
 
 export const UiInspo = () => {
     return (
-      <div className="mt-28 px-4 py-16  sm:max-w-xl md:max-w-full lg:px-[130px] lg:py-20">
+      <div className="mt-8 px-4 py-16  sm:max-w-xl md:max-w-full lg:px-[130px] lg:py-20">
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
-            <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
+            <h1 className="py-3 text-3xl md:text-5xl font-normal ">
                 UI Design –
                 Inspiro
             </h1>
