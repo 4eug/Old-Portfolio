@@ -2,42 +2,20 @@
 import React, {useState} from "react";
 import { motion } from "framer-motion";
 
-let easing = [0.6, -0.05, 0.01, 0.99];
-
-const fadeInUp = {
-  initial: {
-    y: 60,
-    opacity: 0,
-    transition: { duration: 0.6, ease: easing }
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      ease: easing
-    }
-  }
-};
-
 const Hero = () => {
   return (
-    <motion.div name="home" initial='initial' animate='animate' exit={{ opacity: 0 }} className="w-full h-full flex flex-col justify-between ">
-      <div className="grid md:grid-cols-1 max-w-auto ml-2 md:ml-32 mt-16 md:mt-44">
-        <motion.div variants={fadeInUp} className="flex flex-col justify-center md:items-start  2xl:pl-[80px] 2xl:mb-28 w-full md:px-[1px] px-2 py-8"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold">
-          the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span>
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold mt-2">
-          is the mixture of collaboration
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold mt-2 ">
-          and the ❤️ of learning. 
-          </h1>
-        </motion.div>
-      </div>
-    </motion.div>
+    <motion.section animate={{ x: 0, opacity: 1 }}
+    initial={{ x: 200, opacity: 0 }}
+    exit={{ opacity: 0 }}
+    transition={{ delay: 0.2 }} className="mt-16 md:mt-40">
+    <div className="py-8 px-4 mx-auto w-[344px] h-[284px] md:w-[1157px] md:h-[237px] text-center lg:py-16 lg:px-12">
+       
+        <h1 className="text-4xl md:text-6xl text-center mt-8 leading-16 tracking-tight font-normal">
+        the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span> 
+       <br /> is the mixture of collaboration and the ❤️ of learning.
+          </h1>  
+    </div>
+    </motion.section>
   );
 };
 
