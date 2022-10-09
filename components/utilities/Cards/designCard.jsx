@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
-import { Fade, Bounce, Flip, JackInTheBox, Slide }from 'react-awesome-reveal';
 import Link from "next/link";
 
 function DesignCard(props) {
