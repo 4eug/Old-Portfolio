@@ -48,7 +48,7 @@ export const CaseStudies = () => {
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
-            <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
+            <h1 className="py-3 text-3xl md:text-5xl font-normal">
               Some Case Studies 🖼
             </h1>
             <p className="text-xl leading-relaxed">

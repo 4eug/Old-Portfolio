@@ -14,7 +14,7 @@ export const Content = () => {
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl  m-auto">
           <div className=" flex-col justify-center md:items-start w-full px-2 py-8">
             
-            <h1 className="py-3 text-3xl md:text-5xl font-semibold ">
+            <h1 className="py-3 text-3xl md:text-5xl font-normal ">
               My Software <br /> Engineer Experience 💻
             </h1>
             <p className="text-xl leading-relaxed">
@@ -119,7 +119,7 @@ export const Content = () => {
               </div>
             </div>
         </div>
-        <div className="mt-16 mb-1 flex justify-center items-center">
+        <div className="mt-20 mb-1 flex justify-center items-center">
         <Link href="/projects">
         <a>
             <motion.button
