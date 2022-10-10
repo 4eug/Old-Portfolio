@@ -147,17 +147,17 @@ const Projects = () => {
 
             <div className="flex flex-col h-full">
               <img
-                src=""
+                src="/Ijikod-Website.png"
                 className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
                 alt=""
               />
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                   <WebsiteBtn href="https://famtechnologiesgh.com/"/>
+                   <WebsiteBtn href="https://qa.ijikod.com/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
-                  FamTech Website
+                  Ijikod Website
                   </h2>
                 </div>
               </div>
