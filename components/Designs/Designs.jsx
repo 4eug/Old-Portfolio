@@ -3,10 +3,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import {motion} from "framer-motion";
-import WebsiteBtn from "../utilities/Buttons/website";
-import PlaystoreBtn from "../utilities/Buttons/playstore";
-import AppstoreBtn from "../utilities/Buttons/appstore";
-import GithubBtn from "../utilities/Buttons/github";
 import DesignContents from "./content";
 
 let easing = [0.6, -0.05, 0.01, 0.99];
