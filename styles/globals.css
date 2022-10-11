@@ -41,8 +41,10 @@ body {
 .app-cursor {
   z-index: 1000;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  top: 0px;
+  left: 0px;
   border: 1px solid #ff5833;
   pointer-events: none;
   overflow: hidden;
