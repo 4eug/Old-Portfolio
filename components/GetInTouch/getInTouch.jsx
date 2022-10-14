@@ -15,7 +15,7 @@ function GetInTouch() {
         <div className="grid max-w-screen-xl xl:max-w-screen-2xl ">
            <div className="grid md:grid-cols-2 max-w-auto ml-2 md:ml-auto mt-0 md:mt-8 sm:grid-cols-2">
             <h1 className="py-3 text-4xl md:text-7xl font-normal">
-            Have an idea? Tell us about it
+            Have an idea? Tell me about it
             </h1>
           </div>
           <h1 className="py-4 md:py-10 ml-2 text-2xl md:text-3xl">
