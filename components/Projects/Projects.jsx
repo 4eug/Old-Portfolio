@@ -136,7 +136,7 @@ const Projects = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    <WebsiteBtn href=""/>
+                    <WebsiteBtn href="https://obodai-s-website.vercel.app/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Obodai’s Website
@@ -181,7 +181,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="flex flex-col h-full">
+            {/* <div className="flex flex-col h-full">
               <img
                 src=""
                 className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
@@ -197,7 +197,7 @@ const Projects = () => {
                   </h2>
                 </div>
               </div>
-            </div>
+            </div> */}
           
          
           

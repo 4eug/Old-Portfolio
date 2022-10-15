@@ -110,7 +110,7 @@ export const Content = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    <WebsiteBtn href=""/>
+                    <WebsiteBtn href="https://obodai-s-website.vercel.app/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Obodai’s Website
