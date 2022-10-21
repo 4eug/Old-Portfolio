@@ -29,10 +29,10 @@ export default function Home() {
   return (
     <>
       <CustomCursor />
-      <Meta title="4eug Portfolio" />
+      <Meta title="Eugene Debrah" />
       <Head>
         <meta name="description" content="Developed by Me" />
-        <meta property="og:title" content="4eug Portfolio" />
+        <meta property="og:title" content="Eugene Debrah" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
