@@ -53,7 +53,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/MakeWay.jpeg"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -74,7 +74,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TTU-studentsApp.jpg"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -92,7 +92,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TheWallpaper.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -111,7 +111,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/AdinkraIcons.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl "
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -130,7 +130,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Obodai.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -148,7 +148,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Ijikod-Website.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
@@ -166,7 +166,7 @@ const Projects = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Mande-waitlist.png"
-                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
               <div className="">
