@@ -10,9 +10,9 @@ function Research() {
       <h6 className="mt-4 text-xl md:text-4xl font-semibold">Goal</h6>
       <div className="flex justify-center items-center">
       <p className='mt-2 text-center text-sm md:text-base max-w-4xl'>
-      The goal is to develop an app that will help people to be more organized and to prevent 
-      them from postponing their activities.
-       This app motivates and rewards users for doing their tasks.
+      The goal was to develop an app that would encourage organization and limit 
+      the habit of postponing their activities.
+       The app is to motivates and rewards users for doing their tasks.
           </p>
       </div>
     </div>
