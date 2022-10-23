@@ -12,7 +12,7 @@ const Hero = () => {
        
         <h1 className="text-4xl md:text-6xl text-center mt-8 leading-16 tracking-tight font-normal">
         the key to making good <span className="text-transparent bg-clip-text bg-gradient-to-r from-main-orange to-mid-white">products</span> 
-       <br /> is the mixture of collaboration and the ❤️ of learning.
+       <br /> is a mixture of collaboration and the ❤️ for learning.
           </h1>  
     </div>
     </motion.section>
