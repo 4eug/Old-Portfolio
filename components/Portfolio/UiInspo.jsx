@@ -13,7 +13,7 @@ export const UiInspo = () => {
                 UI Design –
                 Inspiro
             </h1>
-            <Marquee gradient={false} speed={100} className="mt-10 md:mt-20">
+            <Marquee gradient={false} speed={50} className="mt-10 md:mt-20">
                 <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
                 
                     <img src="https://cdn.dribbble.com/users/5224484/screenshots/19210128/media/3cdf1d800543914492499a2b9b1a25af.jpg?compress=1&resize=600x400"/>
@@ -25,7 +25,7 @@ export const UiInspo = () => {
                           <img src="https://cdn.dribbble.com/users/5224484/screenshots/15411806/media/9ebcbd40c04adbcd4feca08df66a7132.jpg?compress=1&resize=600x400"/>                  
                 </div>
             </Marquee>
-            <Marquee gradient={false} direction="right" speed={100} className="mt-10">
+            <Marquee gradient={false} direction="right" speed={50} className="mt-10">
                 <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
                 <img src="https://cdn.dribbble.com/users/5224484/screenshots/11256954/shot-cropped-1588494031032.png?compress=1&resize=600x400"/>
                           <img src="https://cdn.dribbble.com/users/5224484/screenshots/15157088/media/d3fc2c4e816236d28932816050b946e3.jpg?compress=1&resize=600x400"/>
