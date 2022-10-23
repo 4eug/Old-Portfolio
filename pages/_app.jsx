@@ -1,4 +1,4 @@
-import { ThemeProvider } from "next-themes";
+
 import "../styles/globals.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     { !loading ? (
-      <ThemeProvider>
+     
       <AnimatePresence mode="wait">
         <motion.div
         key={router.route}
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       </motion.div>
       </AnimatePresence>
-    </ThemeProvider>
+   
     ):(
       <Preloader/>
     )}
