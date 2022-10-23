@@ -25,7 +25,7 @@ function Nav(props) {
         </Link>
       </div>
       <div className="pl-8 md:pl-12">
-      <Mode />
+      {/* <Mode /> */}
       </div>
       <AboutButton/>
       {/* <Link href="/about">
