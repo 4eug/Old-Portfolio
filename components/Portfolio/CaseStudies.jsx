@@ -52,7 +52,7 @@ export const CaseStudies = () => {
               Some Case Studies 🖼
             </h1>
             <p className="text-xl leading-relaxed">
-            Some User Experience Case Studies have worked on.
+            Some User Experience Case Studies I have worked on:
             </p>
           </div>
         </div>

@@ -18,7 +18,7 @@ export const Content = () => {
               My Software <br /> Engineer Experience 💻
             </h1>
             <p className="text-xl leading-relaxed">
-            These are some of the projects I have worked.
+            These are some of the projects I have worked on:
             </p>
           </div>
         </div>
