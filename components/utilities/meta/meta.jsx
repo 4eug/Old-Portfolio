@@ -4,6 +4,7 @@ const Meta = (props) => {
     return (
         <Head>
             {/* pass props as title */}
+            <meta name="google-site-verification" content="_zLSQ83yo9RgVrLBJbyiw4Ks4nt_XWKRh7vGcWpUKiM" />
             <title>{props.title}</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta property="og:title" content={props.title} />
