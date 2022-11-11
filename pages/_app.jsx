@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Preloader from "../components/preloader";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -43,9 +44,21 @@ function MyApp({ Component, pageProps }) {
         className="base-page-size"
         >
       <Component {...pageProps} />
+      
+      {/* Google Analytics Integration */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-121D217ZZS"></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-121D217ZZS');
+          `}
+        </Script>
+
       </motion.div>
       </AnimatePresence>
-   
+      
     ):(
       <Preloader/>
     )}
