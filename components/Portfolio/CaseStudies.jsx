@@ -19,13 +19,14 @@ export const CaseStudies = () => {
           id: 1,
         },
         {
-          title: "FamTech Website",
+          title: "Oya! Ghana Website",
           points:
             "Research,",
           points1:"UX Designs,",
-          imgSrc: "/Background.png",
+          points2:"UI Designs,",
+          imgSrc: "/Oya!.png",
           url:"",
-          status: "View more",
+          status: "Coming Soon",
           id: 2,
           
         },
