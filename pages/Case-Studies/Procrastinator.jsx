@@ -11,7 +11,6 @@ import UserFlow from "../../components/CaseStudies/Procrastinator/user-flow";
 import DesignSoln from "../../components/CaseStudies/Procrastinator/design-soln";
 import MockUps from "../../components/CaseStudies/Procrastinator/mock-ups";
 import DesignDescription from "../../components/CaseStudies/Procrastinator/design-description";
-import { ThemeProvider } from "next-themes";
 
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
   
   return (
     <>
-    <ThemeProvider disableTransitionOnChange={false} transition>
       <CustomCursor />
       <Meta title="Procrastinator" />
       <Head>
@@ -42,7 +40,6 @@ export default function Home() {
       <MockUps/>
       <Footer/>
       <SideBar sideBar={sideBar} />
-      </ThemeProvider>
     </>
   );
 }
