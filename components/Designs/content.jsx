@@ -28,6 +28,26 @@ export default function DesignContents() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col h-full">
+          <Link href="/Case-Studies/Oya-website" passHref>
+          <img
+            src="/Oya!.png"
+            className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
+            alt=""
+          />
+          </Link>
+          <div className="">
+            <div className="pt-4">
+              <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
+              Oya! Ghana Website
+              </h2>
+              <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
+                 
+                </div>
+            </div>
+          </div>
+        </div>
       
       
         <div className="flex flex-col h-full">
