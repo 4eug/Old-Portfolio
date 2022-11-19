@@ -25,8 +25,8 @@ export const CaseStudies = () => {
           points1:"UX Designs,",
           points2:"UI Designs,",
           imgSrc: "/Oya!.png",
-          url:"",
-          status: "Coming Soon",
+          url:"/Case-Studies/Oya-website",
+          status: "View more",
           id: 2,
           
         },
