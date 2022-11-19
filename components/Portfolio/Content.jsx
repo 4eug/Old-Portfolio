@@ -27,7 +27,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/MakeWay.jpeg"
-                className="object-cover w-[330px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
+                className="object-cover w-[360px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
                 alt=""
               />
               <div className="">
@@ -48,7 +48,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TTU-studentsApp.jpg"
-                className="object-cover w-[330px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
+                className="object-cover w-[360px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
                 alt=""
               />
               <div className="">
@@ -66,7 +66,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/TheWallpaper.png"
-                className="object-cover w-[330px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
+                className="object-cover w-[360px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
                 alt=""
               />
               <div className="">
@@ -85,7 +85,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/AdinkraIcons.png"
-                className="object-cover w-[330px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
+                className="object-cover w-[360px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
                 alt=""
               />
               <div className="">
@@ -104,7 +104,7 @@ export const Content = () => {
             <div className="flex flex-col h-full">
               <img
                 src="/Obodai.png"
-                className="object-cover w-[330px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
+                className="object-cover w-[360px] md:w-full h-48 rounded-2xl duration-500 hover:scale-105 "
                 alt=""
               />
               <div className="">
