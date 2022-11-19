@@ -29,6 +29,7 @@ module.exports = {
         'main-orange': '#FF5833',
         'mid-white': '#EDCDC6',
         'procrastinator-blue': '#59B5F8',
+        'oya-green': '#12B981',
       },
       fontSize: {
         "portfolio-xsm": "14px",
