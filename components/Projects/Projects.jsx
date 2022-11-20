@@ -136,7 +136,7 @@ const Projects = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                    <WebsiteBtn href="https://obodai-s-website.vercel.app/"/>
+                    <WebsiteBtn href="https://obodai.com/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Obodai’s Website
