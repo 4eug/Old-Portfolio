@@ -8,7 +8,7 @@ function MockUps() {
     <div className="mt-2 md:mt-40 text-center"> 
       <h6 className="text-3xl md:text-5xl font-semibold">Mockups</h6>
         <div className="flex justify-center items-center">
-            <p className='mt-2 text-center text-base md:text-base max-w-4xl'>
+            <p className='mt-2 text-center text-base max-w-6xl md:text-xl'>
             Presentation of Final High Fidelity mockups after usability test on
             Low Fidelity
             </p>

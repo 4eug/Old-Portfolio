@@ -13,7 +13,7 @@ function UserJourney() {
           </h1>
         </div>
       </div>
-      <div className="mt-0 ml-0 md:ml-40 md:mt-4 m-auto justify-center items-center 2xl:ml-40">
+      <div className="mt-0 ml-0 md:ml-40 md:mt-4 m-auto justify-center items-center 2xl:ml-80">
             <Image
             src="/map.png"
             width="1172"

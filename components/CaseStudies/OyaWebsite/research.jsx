@@ -18,7 +18,7 @@ function Research() {
           </p>
         </div>
       </div>
-      <div className="mt-0 md:mt-4 m-auto justify-center items-center 2xl:ml-40">
+      <div className="mt-0 md:mt-4 m-auto justify-center items-center 2xl:ml-60">
             <Image
             src="/About.png"
             width="1440"

@@ -26,7 +26,7 @@ const OyaHero = (props) => {
     
    
   </div>
-  <div className="mt-20 relative 2xl:ml-40">
+  <div className="mt-20 relative 2xl:ml-60">
     <Image
     src="/Oya-header.png"
     width="1440"

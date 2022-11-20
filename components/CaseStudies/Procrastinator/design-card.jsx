@@ -18,11 +18,11 @@ function Design_Card(props) {
       >
         <div className="w-full flex items-center">
           <div>
-            <h2 className="mt-5 text-3xl font-semibold">{props.title}</h2>
-            <p className="mt-2 text-xl md:w-2/3 font-medium">{props.subInfo}</p>
-            <p className="mt-2 text-lg md:w-2/3 font-normal">{props.point}</p>
-            <p className="mt-2 text-lg md:w-2/3 font-normal">{props.point2}</p>
-            <p className="mt-2 text-lg md:w-2/3 font-normal">{props.point3}</p>
+            <h2 className="mt-5 text-xl md:text-4xl font-semibold">{props.title}</h2>
+            <p className="mt-2 ttext-xl md:text-2xl md:w-2/3 font-medium">{props.subInfo}</p>
+            <p className="mt-2 max-w-6xl md:text-2xl md:w-2/3 font-normal">{props.point}</p>
+            <p className="mt-2 max-w-6xl md:text-2xl md:w-2/3 font-normal">{props.point2}</p>
+            <p className="mt-2 max-w-6xl md:text-2xl md:w-2/3 font-normal">{props.point3}</p>
           </div>
         </div>
 
