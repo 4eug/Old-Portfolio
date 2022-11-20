@@ -39,7 +39,7 @@ function DesignCard(props) {
           <div className="h-full w-full relative">
             <img
                 src={props.src}
-                className="object-cover w-full h-72 2xl:px-[65px] border-[0.2px]"
+                className="object-cover w-full h-72 2xl:px-[px] border-[0.2px]"
                 alt=""
               />
           </div>
