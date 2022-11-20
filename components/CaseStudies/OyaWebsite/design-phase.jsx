@@ -8,10 +8,10 @@ function DesignPhase() {
     <section className="pt-2">
       <div className="grid ml-2 md:ml-32 mt-0 md:mt-20 md:mb-10">
         <div className="flex flex-col justify-center md:items-start 2xl:pl-2 2xl:mb-2 w-full px-2 py-8 ">
-          <h1 className="text-xl md:text-3xl font-bold">
+          <h1 className="text-xl md:text-4xl font-bold">
           The Design Phase
           </h1>
-          <p className='mt-2 max-w-6xl'>
+          <p className='mt-2 max-w-6xl md:text-2xl'>
          <h2>For most of my products, if I am collaborating with other developers, designers, or product managers,
            I show them wireframes to get feedback and keep iterating until they are all satisfied.
             This helps me to know the limit to what is possible for developers to bring to life.
