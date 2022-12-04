@@ -11,6 +11,7 @@ import Goal from "../../components/CaseStudies/OyaWebsite/goal";
 import UserJourney from "../../components/CaseStudies/OyaWebsite/mapping";
 import DesignPhase from "../../components/CaseStudies/OyaWebsite/design-phase";
 import FinalThoughts from "../../components/CaseStudies/OyaWebsite/final-thoughts";
+import Sketches from "../../components/CaseStudies/OyaWebsite/sketches";
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
       <Goal/>
       <UserJourney/>
       {/* Sketches */}
+      <Sketches/>
       <DesignPhase/>
       <FinalThoughts/>
       
