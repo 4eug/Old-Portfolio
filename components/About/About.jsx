@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import ConnectButton from "../utilities/Buttons/connect-btn";
@@ -41,21 +42,23 @@ const About = () => {
         <img className="object-center" src="/Me.png" alt="avatar" />
         </motion.div>
           <h6 className="mt-8 text-xl">Hi, I’m Eugene ✋🏼</h6>
-          <h3 className="text-4xl md:text-6xl text-center mt-8 leading-16 tracking-tight font-normal">
-          Building digital products,
+          <h3 className="text-4xl md:text-[45px] text-center mt-8 leading-16 tracking-tight font-normal">
+          "Building digital products,
           </h3>
-          <h3 className="text-4xl md:text-6xl text-center mt-2 leading-16 tracking-tight font-normal">
+          <h3 className="text-4xl md:text-[45px] text-center mt-2 leading-16 tracking-tight font-normal">
           creating awesome brand 
           </h3>
-          <h3 className="text-4xl md:text-6xl text-center mt-2 leading-16 tracking-tight font-normal">
-          experiences.
+          <h3 className="text-4xl md:text-[45px] text-center mt-2 leading-16 tracking-tight font-normal">
+          experiences"
           </h3>
           <div className="flex justify-center items-center">
-          <p className='mt-10 text-center text-lg max-w-xl'>
-          a <span className="font-bold">Software Developer</span>(Mobile & Front-end) and <span className="font-bold">Product Designer </span>
-          who is passionate about building and designing beautiful 
-          and value-based applications or digital 
-          products for businesses.
+          <p className='mt-10 text-center text-lg max-w-3xl'>
+          I’m a <span className="font-bold" >Front-end Developer</span> and a <span className="font-bold">Product Designer</span> 
+          ( what they call a <span className="font-bold">UX Engineer</span>).
+           I like to view myself as a creator and a learner. I experiment on frontend applications using <span className="font-bold">HTML, CSS, TailwindCSS, JavaScript,
+          TypeScript, and Dart</span> but predominantly utilise frameworks such as <span className="font-bold">ReactJS, NextJS, and Flutter.</span> I love designing interfaces with <span className="font-bold">Figma</span>, researching,
+           and building out design systems, and also creating processes and tools to enable the team I work with do their best.
+          Outside of work, I love exploring new places (taking pictures and editing them ), watching movies, animations, and tech videos, and listening to music.
               </p>
           </div>
           
