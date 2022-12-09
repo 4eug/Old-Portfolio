@@ -208,10 +208,28 @@ const Projects = () => {
               <div className="">
                 <div className="pt-4">
                     <div className="flex gap-2 lg:grid-cols-3">
-                   <WebsiteBtn href=""/>
+                   <WebsiteBtn href="https://oya-website-redesign.netlify.app/"/>
                     </div>
                   <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
                   Oya! Ghana Website
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <img
+                src="/"
+                className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
+                alt=""
+              />
+              <div className="">
+                <div className="pt-4">
+                    <div className="flex gap-2 lg:grid-cols-3">
+                   <WebsiteBtn href="https://famtechgh.com/"/>
+                    </div>
+                  <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
+                  Fam Technology Website
                   </h2>
                 </div>
               </div>
