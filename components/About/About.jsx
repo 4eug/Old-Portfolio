@@ -54,11 +54,11 @@ const About = () => {
           <div className="flex justify-center items-center">
           <p className='mt-10 text-center text-lg max-w-3xl'>
           I’m a <span className="font-bold" >Front-end Developer</span> and a <span className="font-bold">Product Designer</span> 
-          ( what they call a <span className="font-bold">UX Engineer</span>).
+          (what they call a <span className="font-bold">UX Engineer</span>).
            I like to view myself as a creator and a learner. I experiment with frontend applications using <span className="font-bold">HTML, CSS, TailwindCSS, JavaScript,
           TypeScript, and Dart</span> but predominantly utilise frameworks such as <span className="font-bold">ReactJS, NextJS, and Flutter.</span> I love designing interfaces with <span className="font-bold">Figma</span>, researching,
            and building out design systems, and also creating processes and tools to enable the team I work with do their best.
-          Outside of work, I love exploring new places (taking pictures and editing them ), watching movies, animations, and tech videos, and listening to music.
+          Outside of work, I love exploring new places (taking pictures and editing them), watching movies, animations, and tech videos, and listening to music.
               </p>
           </div>
           
