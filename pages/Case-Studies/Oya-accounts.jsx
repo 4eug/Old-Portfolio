@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/footer";
 import AccountHero from "../../components/CaseStudies/OyaAccounts";
 import Solution from "../../components/CaseStudies/OyaAccounts/solution";
 import Screens from "../../components/CaseStudies/OyaAccounts/screens";
+import Role from "../../components/CaseStudies/OyaAccounts/role";
 
 
 
@@ -32,7 +33,7 @@ export default function Home() {
 
       <AccountHero/>
       <Solution/>
-
+      <Role/>
       <Screens/>
       
       
