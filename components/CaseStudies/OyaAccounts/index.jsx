@@ -11,7 +11,7 @@ const AccountHero = (props) => {
     <div className="ml-0 md:ml-10 mr-10 mt-10 w-full sm:w-2/3 grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3">
       <div className="grid">
       <h1 className="text-xl font-medium">Project Timeline</h1>
-      <p className="text-lg">About 3 Weeks</p>
+      <p className="text-lg">3 Weeks</p>
      </div>
     </div>
     
