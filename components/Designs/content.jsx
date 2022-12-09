@@ -19,6 +19,9 @@ export default function DesignContents() {
           </Link>
           <div className="">
             <div className="pt-4">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Procrastinator
               </h2>
@@ -39,6 +42,9 @@ export default function DesignContents() {
           </Link>
           <div className="">
             <div className="pt-4">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Oya! Ghana Website
               </h2>
@@ -48,9 +54,9 @@ export default function DesignContents() {
             </div>
           </div>
         </div>
+
       
-      
-        <div className="flex flex-col h-full">
+        {/* <div className="flex flex-col h-full">
           <Link href="" passHref>
           <img
             src="/MakeWay.jpeg"
@@ -68,7 +74,7 @@ export default function DesignContents() {
                 </div>
             </div>
           </div>
-        </div>
+        </div> */}
       
         <div className="flex flex-col h-full">
           <Link href="https://www.behance.net/gallery/151783469/Buy-Sell-and-Design-3D-Icons-UI-Design" passHref>
@@ -80,11 +86,35 @@ export default function DesignContents() {
           </Link>
           <div className="">
             <div className="pt-4">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Maxicons
               </h2>
               <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
-                 
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col h-full">
+          <Link href="/Case-Studies/Oya-accounts" passHref>
+          <img
+            src="/Oya Accounts.png"
+            className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
+            alt=""
+          />
+          </Link>
+          <div className="">
+            <div className="pt-4">
+                <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
+              <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
+              Oya! Ghana Accounts Page
+              </h2>
+              <div className="flex gap-1 md:gap-2 lg:grid-cols-3">
                 </div>
             </div>
           </div>
@@ -100,6 +130,9 @@ export default function DesignContents() {
           </Link>
           <div className="">
             <div className="pt-4">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Vintage Item Header
               </h2>
@@ -120,6 +153,9 @@ export default function DesignContents() {
           </Link>
           <div className="">
             <div className="pt-4">
+            <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
+                <h3 className="">Research,</h3>
+                </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               BrandFolio 2018 - 2021
               </h2>
@@ -129,9 +165,6 @@ export default function DesignContents() {
             </div>
           </div>
         </div>
-
-        
-      
     </div>
     </div>
   )
