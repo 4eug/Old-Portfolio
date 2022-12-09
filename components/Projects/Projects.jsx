@@ -219,7 +219,7 @@ const Projects = () => {
 
             <div className="flex flex-col h-full">
               <img
-                src="/"
+                src="/Famtech.png"
                 className="object-cover w-[360px] ml-2 md:ml-auto md:w-full h-48 rounded-2xl duration-500 hover:scale-105"
                 alt=""
               />
