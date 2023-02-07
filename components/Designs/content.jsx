@@ -21,6 +21,8 @@ export default function DesignContents() {
             <div className="pt-4">
             <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
                 <h3 className="">Research,</h3>
+                <h3 className="">UX Design,</h3>
+                <h3 className="">UI Design</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Procrastinator
@@ -44,6 +46,8 @@ export default function DesignContents() {
             <div className="pt-4">
             <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
                 <h3 className="">Research,</h3>
+                <h3 className="">UX Design,</h3>
+                <h3 className="">UI Design</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Oya! Ghana Website
@@ -87,7 +91,7 @@ export default function DesignContents() {
           <div className="">
             <div className="pt-4">
             <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
-                <h3 className="">Research,</h3>
+                <h3 className="">UI Design</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Maxicons
@@ -110,6 +114,8 @@ export default function DesignContents() {
             <div className="pt-4">
                 <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
                 <h3 className="">Research,</h3>
+                <h3 className="">UX Design,</h3>
+                <h3 className="">UI Design</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Oya! Ghana Accounts Page
@@ -131,7 +137,7 @@ export default function DesignContents() {
           <div className="">
             <div className="pt-4">
             <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
-                <h3 className="">Research,</h3>
+                <h3 className="">UI Design</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               Vintage Item Header
@@ -154,7 +160,7 @@ export default function DesignContents() {
           <div className="">
             <div className="pt-4">
             <div className="flex gap-2 md:gap-2 lg:grid-cols-3 ">
-                <h3 className="">Research,</h3>
+                <h3 className="">Brand Identity</h3>
                 </div>
               <h2 className="mt-4 text-xl leading-5 ml-2 md:ml-auto">
               BrandFolio 2018 - 2021
